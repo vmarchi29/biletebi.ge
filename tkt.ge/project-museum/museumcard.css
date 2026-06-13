@@ -1,0 +1,182 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: rgb(244, 244, 245);
+
+}
+/* .museum-Container{
+    display: flex;
+    justify-content: start;
+    margin-top: 450px;
+    position: fixed;
+} */
+.museum-container1{
+    width: auto;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    
+    
+    
+}
+.museum-photo1{
+    width: 1425px;
+    height: 495px;
+    border-radius: 25px 25px 0px 0px;
+    margin-top: 650px;
+}
+.museum-container2{
+    display: flex;
+}
+.museum-container3{
+    width: 960px;
+    margin-left: 30px;
+}
+.museum-p1{
+   font-size: 15px;
+   line-height: 1.25rem;
+   font-weight: 100;
+   color: rgba(0, 0, 0, 0.623);
+}
+.museum-text1{
+    font-size: 22px;
+
+}
+.museum-container4{
+    width: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.185);
+    height: 170px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-right: 30px;
+   
+}
+.museum-container5{
+
+    display: flex;
+    padding: 20px;
+     width: 340px; 
+}
+.museum-card-image{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+.museum-p2{
+    margin-left: 3px;
+    margin-top: 15px;
+     color: rgba(0, 0, 0, 0.623);
+    font-size: 15px;
+}
+.museum-card-image1{
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+    margin-top: 18px;
+    opacity: 0.80;
+}
+
+.museum-card-btn1{
+    width: 350px;
+    height: 50px;
+    margin-left: 20px;
+    background-color: rgba(0, 81, 255, 0.856);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.museum-p3{
+    font-weight: 600;
+    font-size: 15;
+    margin-top: -10px;
+}
+
+.museum-p4{
+    margin-top: -15px;
+    color: rgba(0, 0, 0, 0.623);
+}
+
+.museum-p5{
+   
+     color: rgba(0, 0, 0, 0.623);
+    font-size: 15px;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.museum-p6{
+    margin-top: -20px;
+     color: rgba(0, 0, 0, 0.623);
+    font-size: 15px;
+    
+}
+
+.museum-p7{
+  margin-top: -5px;
+  font-weight: bold;
+  
+}
+
+.museum-p8{
+    font-weight: bold;
+}
+
+.museum-card-btn2{
+    width: 140px;
+    height: 40px;
+    border-radius: 20px ;
+    border: none;
+    color: rgba(0, 0, 0, 0.623);
+}
+
+.museum-text2{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.museum-p9{
+    margin-top: -10px;
+}
+
+.museum-container6{
+    width: 1350px;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 69em; */
+}
+.museum-container8{
+    display: flex;
+    justify-content: end;
+    width: 400px;
+    margin-left: 90px;
+}
+.museum-card-btn3{
+    width: 180;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    font-weight: bolder;
+
+}
+
+.museum-card-image2{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    width: 1350px;
+    height: 450px;
+    margin-top: 20px;
+}
+.museum-container9{
+    display: flex;
+    justify-content: center;
+}
+

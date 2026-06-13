@@ -1,0 +1,344 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+    background-color: rgb(235, 235, 235);
+}
+.tkt_logo{
+    width: 180px;
+    height: 45px;
+}
+.tkt_headertxt{
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14.33px;
+    font-weight: 400;
+}
+.tkt_phoneimg{
+    width: 15px;
+    height: 15px;
+    margin-top: 14px;
+}
+.tkt_header{
+    width: 1320px;
+    margin-left: 90px;
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.tkt_headerright{
+    display: flex;
+    gap: 15px;
+}
+.tkt_headerbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 191.39px;
+    height: 40px;
+    background-color: rgb(39, 79, 160);
+    font-size: 16.384px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+}
+.tkt_btn1{
+    display: flex;
+    align-items: center;
+    background-color: rgb(235, 235, 235);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10.24px;
+}
+.tkt_from, .tkt_to{
+    margin-left: 25px;
+    margin-top: -35px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    width: 150px;
+    height: 25px;
+    border: none;
+}
+.tkt_date{
+    margin-left: -35px;
+    margin-top: -35px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    width: 80px;
+    height: 25px;
+    border: none;
+}
+.tkt_blue{
+    background-color: rgb(39, 79, 160);
+    color: white;
+}
+.tkt_btns{
+    display: flex;
+    gap: 10px;
+    margin-left: 60px;
+}
+.tkt_cont1{
+    width: 238px;
+    height: 70.075px;
+    border: 0.8px solid rgb(204, 204, 204);
+    border-radius: 9px;
+    z-index: 100;
+}
+.tkt_locimg{
+    width: 22px;
+    height: 22px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.tkt_inshablon{
+    display: flex;
+    gap: 6px;
+    margin-top: 10px;
+    margin-right: 35px;
+    z-index: 100;
+}
+.tkt_text1{
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.tkt_text4{
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: -5px;
+    margin-left: 35px;
+}
+.tkt_text2{
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: -35px;
+    width: 190px;
+}
+.tkt_text3{
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    width: 200px;
+    padding: 15px 15px ;
+}
+.tkt_plusimg{
+    width: 22px;
+    height: 22px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.tkt_datebtns{
+    display: flex;
+    background-color: white;
+    height: 70.075px;
+    border: 0.8px solid rgb(204, 204, 204);
+    border-radius: 9px;
+
+}
+.tkt_info{
+    margin-left: 15px;
+    border: none;
+}
+.tkt_inbtnline{
+    width: 0.1px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.36);
+    margin-left:-35px ;
+}
+.tkt_searchbtn{
+    width: 106.4px;
+    height: 68px;
+    padding: 6px;
+    background-color: rgb(39, 79, 160);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+.tkt_tkt2{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 15px;
+}
+.tkt_tkt{
+    width: 1279px;
+    height: 156px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 10px rgb(197, 196, 196);
+    border-radius: 8px;
+    padding: 20.48px 20.48px;
+}
+.tkt_shabloncont{
+    width: 100%;
+    height: 315px;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.tkt_dateontkt{
+    color: rgb(51, 50, 50);
+    margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+}
+.tkt_placetext{
+
+    color: white;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 20px;
+    margin-top: -1px;
+}
+.tkt_places{
+    width: 149px;
+    height: 16px;
+    background-color: rgb(39, 79, 160);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.tkt_gel{
+    color: rgb(51, 50, 50);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20.5px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-top: 18px;
+}
+.tkt_choose{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 84.7px;
+    height: 38px;
+    padding: 15.360px;
+    background-color: rgb(39, 79, 160);
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 11px;
+}
+.tkt_tktupper{
+    width: 1318px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.tkt_tktupperright{
+    display: flex;
+    gap: 10px;
+}
+.tkt_circle{
+    width:30px;
+    height: 30px;
+    margin-top: 10px;
+}
+.tkt_logo{
+    width: 36px;
+    height: 36px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.tkt_bold{
+    color: rgb(51, 50, 50);
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17.4px;
+    font-weight: 600;
+}
+.tkt_light{
+    color: rgb(51, 50, 50);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+.tkt_tktmiddlepart{
+     width: 1318px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.tkt_green{
+    color: rgb(29, 172, 8);
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+.tkt_cities{
+    margin-top: 10px;
+    color: rgb(51, 50, 50);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+}
+
+.tkt_littlebtn{
+    width: 41px;
+    height: 19px;
+    color: rgb(51, 50, 50);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 20px;
+    border: none;
+}
+.tkt_tktlowerpart{
+    width: 1318px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.tkt_lastbtn{
+    width: 167px;
+    height: 34px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0.8px solid rgb(39, 79, 160);
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color:rgb(39, 79, 160); ;
+}
+.tkt_ticket{
+    width: 1358.4px;
+    height: 254.85px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 80px;
+    margin-top: 30px;
+
+}

@@ -1,0 +1,506 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serifs;
+  padding-top: 200px;
+  height: 160svh;
+}
+body::-webkit-scrollbar {
+  width: 8px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(158, 158, 158);
+  width: 100%;
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-track {
+  background-color: rgb(228, 228, 228);
+}
+
+.tbilisbuswrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.tbilisbuswrapper .tbilisibusheader {
+  background-image: linear-gradient(to bottom, rgb(68, 59, 148), rgb(29, 15, 66));
+  width: 100%;
+  width: 76%;
+  height: 350px;
+  background-size: cover;
+  margin-bottom: 40px;
+  border-radius: 15px;
+}
+.tbilisbuswrapper .tbilisibusheader .headerstyletbilisibus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 125px 145px;
+}
+.tbilisbuswrapper .tbilisibusheader .headerstyletbilisibus h1 {
+  width: 70%;
+  font-size: 35px;
+  color: white;
+}
+
+.busticketinfobannerwrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 70px;
+  margin-bottom: 10px;
+}
+.busticketinfobannerwrapper .busticketinfobanner {
+  background-image: url(./../image/busimageticketticket.png);
+  width: 100%;
+  max-width: 1250px;
+  aspect-ratio: 1250/330;
+  background-size: cover;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.infoatthebottombusticktwrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.infoatthebottombusticktwrapper .infoatthebottombustickt {
+  width: 100%;
+  max-width: 1250px;
+  background-size: cover;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+}
+.infoatthebottombusticktwrapper .infoatthebottombustickt .infocard {
+  height: 280px;
+  width: 300px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F4F4F5;
+  padding: 15px;
+}
+.infoatthebottombusticktwrapper .infoatthebottombustickt .infocard img {
+  margin-bottom: 25px;
+}
+.infoatthebottombusticktwrapper .infoatthebottombustickt .infocard h1 {
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 13px;
+}
+.infoatthebottombusticktwrapper .infoatthebottombustickt .infocard h2 {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 350;
+  margin-bottom: 15px;
+}
+.infoatthebottombusticktwrapper .infoatthebottombustickt .infocard a {
+  text-decoration: none;
+  color: rgb(0, 110, 255);
+}
+
+.faqdiv {
+  width: 100%;
+  height: auto;
+  margin-bottom: 95px;
+  display: flex;
+  flex-direction: column;
+  padding: 85px 0px;
+  justify-content: center;
+  align-items: center;
+}
+.faqdiv .faqsmessage {
+  width: 80px;
+  padding: 7px 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: #E10088;
+  margin-bottom: 15px;
+}
+.faqdiv .faqsmessage img {
+  margin-right: 5px;
+}
+.faqdiv .faqsmessage h1 {
+  font-size: 0.8rem;
+  color: white;
+  font-weight: 700;
+}
+.faqdiv .tittlefaqs {
+  font-size: 1.25rem;
+  margin-bottom: 40px;
+}
+.faqdiv .faqsrows {
+  display: flex;
+  gap: 17px;
+  justify-content: space-between;
+  align-items: start;
+}
+.faqdiv .faqsrows .row1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.faqdiv .faqsrows .row1 .questns {
+  width: 610px;
+  height: 70px;
+  overflow-y: hidden;
+  background-color: rgb(240, 240, 240);
+  border-radius: 13px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 15px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.faqdiv .faqsrows .row1 .questns.open {
+  height: auto;
+}
+.faqdiv .faqsrows .row1 .questns .questiontittle {
+  font-size: 1rem;
+  margin-bottom: 25px;
+  font-weight: 400;
+  user-select: none;
+}
+.faqdiv .faqsrows .row1 .questns .questiondesc {
+  font-size: 0.75rem;
+  font-weight: 350;
+}
+.faqdiv .faqsrows .row1 .questns a {
+  color: rgb(28, 164, 255);
+}
+.faqdiv .faqsrows .row2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.faqdiv .faqsrows .row2 .questns {
+  width: 610px;
+  height: 70px;
+  overflow-y: hidden;
+  background-color: rgb(240, 240, 240);
+  border-radius: 13px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 15px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.faqdiv .faqsrows .row2 .questns.open {
+  height: auto;
+}
+.faqdiv .faqsrows .row2 .questns .questiontittle {
+  font-size: 1rem;
+  margin-bottom: 25px;
+  font-weight: 400;
+  user-select: none;
+}
+.faqdiv .faqsrows .row2 .questns .questiondesc {
+  font-size: 0.75rem;
+  font-weight: 350;
+}
+.faqdiv .faqsrows .row2 .questns a {
+  color: rgb(28, 164, 255);
+}
+
+@media (max-width: 426px) {
+  body {
+    padding-top: 170px;
+  }
+  .busticketinfobannerwrapper {
+    padding: 0px 10px;
+    margin-bottom: 25px;
+  }
+  .busticketinfobannerwrapper .busticketinfobanner {
+    background-image: url(./../image/busimageticketticketcubic.png);
+    width: 100%;
+    max-width: 393px;
+    aspect-ratio: 393/436;
+    background-size: cover;
+    margin-bottom: 10px;
+    border-radius: 15px;
+  }
+  .busticketinfobannerwrapper .textcontentbusticketinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    max-width: 1250px;
+    padding: 0px 8px;
+  }
+  .busticketinfobannerwrapper .textcontentbusticketinfo h1 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+  }
+  .busticketinfobannerwrapper .textcontentbusticketinfo h2 {
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 30px;
+    line-height: 1.625;
+  }
+  .busticketinfobannerwrapper .textcontentbusticketinfo ul {
+    padding-left: 25px;
+  }
+  .busticketinfobannerwrapper .textcontentbusticketinfo ul li {
+    margin-bottom: 10px;
+  }
+  .tbilisbuswrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tbilisbuswrapper .tbilisibusheader {
+    background-image: linear-gradient(to bottom, rgb(66, 122, 226), rgb(19, 65, 151));
+    width: 100%;
+    height: 480px;
+    background-size: cover;
+    margin-bottom: 0px;
+    border-radius: 25px;
+  }
+  .tbilisbuswrapper .tbilisibusheader .headerstyletbilisibus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 61px 16px;
+  }
+  .tbilisbuswrapper .tbilisibusheader .headerstyletbilisibus img {
+    width: 95px;
+  }
+  .tbilisbuswrapper .tbilisibusheader .headerstyletbilisibus h1 {
+    margin-top: 10px;
+    width: 77%;
+    font-size: 1.25rem;
+    color: white;
+  }
+  .traintittle {
+    font-size: 1.01rem;
+    margin: 0px;
+    padding-left: 15px;
+    margin-bottom: 35px;
+    width: 300px;
+  }
+  .wrappertraininfo {
+    width: 100%;
+    margin-bottom: 45px;
+  }
+  .wrappertraininfo .traininfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px;
+    flex-direction: column;
+  }
+  .wrappertraininfo .traininfo .traininfocard {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+  }
+  .wrappertraininfo .traininfo .traininfocard img {
+    margin-bottom: 0px;
+    width: 40px;
+    margin-right: 15px;
+  }
+  .wrappertraininfo .traininfo .traininfocard .traininfoul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .wrappertraininfo .traininfo .traininfocard .traininfoul .desc {
+    text-align: start;
+    font-size: 0.75rem;
+  }
+  .wrappertraininfo .traininfo .traininfocard .traininfoul .bolddesc {
+    text-align: start;
+    font-weight: 500;
+    font-size: 0.75rem;
+  }
+  .infoatthebottombusticktwrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .infoatthebottombusticktwrapper .infoatthebottombustickt {
+    width: 100%;
+    max-width: 1250px;
+    background-size: cover;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+  }
+  .infoatthebottombusticktwrapper .infoatthebottombustickt .infocard {
+    height: auto;
+    width: 90%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 45px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F5;
+    padding-left: 85px;
+    padding-right: 45px;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  .infoatthebottombusticktwrapper .infoatthebottombustickt .infocard img {
+    position: absolute;
+    left: 15px;
+    width: 65px;
+    margin-bottom: 0px;
+  }
+  .infoatthebottombusticktwrapper .infoatthebottombustickt .infocard h1 {
+    font-size: 0.875rem;
+    text-align: center;
+    margin-bottom: 13px;
+  }
+  .infoatthebottombusticktwrapper .infoatthebottombustickt .infocard h2 {
+    font-size: 0.75rem;
+    text-align: center;
+    font-weight: 350;
+    margin-bottom: 15px;
+  }
+  .infoatthebottombusticktwrapper .infoatthebottombustickt .infocard a {
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: rgb(0, 110, 255);
+  }
+  .faqdiv {
+    width: 100%;
+    height: auto;
+    margin-bottom: 95px;
+    display: flex;
+    flex-direction: column;
+    padding: 85px 0px;
+    padding-top: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  .faqdiv .faqsmessage {
+    width: 80px;
+    padding: 7px 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #E10088;
+    margin-bottom: 15px;
+  }
+  .faqdiv .faqsmessage img {
+    margin-right: 5px;
+  }
+  .faqdiv .faqsmessage h1 {
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 700;
+  }
+  .faqdiv .tittlefaqs {
+    font-size: 0.875rem;
+    margin-bottom: 40px;
+  }
+  .faqdiv .faqsrows {
+    display: flex;
+    gap: 17px;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+  }
+  .faqdiv .faqsrows .row1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .faqdiv .faqsrows .row1 .questns {
+    width: clamp(200px, 90vw, 500px);
+    height: 55px;
+    overflow-y: hidden;
+    background-color: rgb(240, 240, 240);
+    border-radius: 13px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  .faqdiv .faqsrows .row1 .questns.open {
+    height: auto;
+  }
+  .faqdiv .faqsrows .row1 .questns .questiontittle {
+    font-size: 0.75rem;
+    margin-bottom: 25px;
+    font-weight: 400;
+    user-select: none;
+  }
+  .faqdiv .faqsrows .row1 .questns .questiondesc {
+    font-size: 0.75rem;
+    font-weight: 350;
+  }
+  .faqdiv .faqsrows .row1 .questns a {
+    color: rgb(28, 164, 255);
+  }
+  .faqdiv .faqsrows .row2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .faqdiv .faqsrows .row2 .questns {
+    width: clamp(200px, 90vw, 500px);
+    height: 55px;
+    overflow-y: hidden;
+    background-color: rgb(240, 240, 240);
+    border-radius: 13px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    margin-bottom: 15px;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  .faqdiv .faqsrows .row2 .questns.open {
+    height: auto;
+  }
+  .faqdiv .faqsrows .row2 .questns .questiontittle {
+    font-size: 0.75rem;
+    margin-bottom: 25px;
+    font-weight: 400;
+    user-select: none;
+  }
+  .faqdiv .faqsrows .row2 .questns .questiondesc {
+    font-size: 0.75rem;
+    font-weight: 350;
+  }
+  .faqdiv .faqsrows .row2 .questns a {
+    color: rgb(28, 164, 255);
+  }
+}/*# sourceMappingURL=style.css.map */

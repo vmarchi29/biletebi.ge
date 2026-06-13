@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link rel="stylesheet" href="./museum.css">
+    <link rel="stylesheet" href="/footer/footer.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="top-nav">
+            <div class="top-left">
+                <img src="/logo.svg" alt="" class="tkt-logo" onclick="window.location.href='/index.html'">
+            <div class="search-box">
+                <input type="text" placeholder="ძებნა">
+                <img src="/icons8-search-50 (1).png" alt="">
+            </div>
+            </div>
+            <div class="top-right">
+                <div class="language">
+
+
+
+    <div class="lang-box" id="langBox">
+        
+        <span id="selectedLang"><img src="/icons8-globe-50.png" class="globe"> ქართული ▾</span>
+
+        <div class="lang-dropdown" id="langDropdown">
+            <div data-lang="ka"><img src="/icons8-georgia-circular-48.png" alt=""> ქართული</div>
+            <div data-lang="en"><img src="/icons8-united-kingdom-48.png" alt=""> English</div>
+        </div>
+    </div>
+
+</div>
+                <button class="sign-in-btn" onclick="window.location.href='/sign-in.html'"> <img src="/icons8-person-48.png" alt=""> შესვლა</button>
+                <img src="/icons8-finger-print-64 (2).png" alt="" class="finger-print">
+            </div>
+
+        </div>
+        <nav class="categories">
+            <div class="cat-bar">
+    <div class="dropdown">
+        <button class="drop-btn"> <img src="/icons8-menu-24.png" alt="">კატეგორიები ▾</button>
+
+        <div class="drop-menu">
+            <a href="/music_concert/index.html">მუსიკა/კონცერტი</a>
+            <a href="/kino/index.html">კინო</a>
+            <a href="/JLDEV SquadProeqti 1/rkinigza/index.html">რკინიგზა</a>
+            <a href="/JLDEV SquadProeqti 1/index.html">ტრანსპორტი</a>
+            <a href="/New folder (12)/index.html">თეატრი</a>
+            <a href="/opera/index.html">ოპერა</a>
+            <a href="/sport-and-sea-main/sport/sport.html">სპორტი</a>
+            <a href="/sport-and-sea-main/sport/sea.html">ზღვა</a>
+            <a href="/festivali/festivali.html">ფესტივალი</a>
+            <a href="/DACHI F/PROEKTI/intel.html">საბავშვო</a>
+            <a href="/DACHI F/PROEKTI/gadasvla.html">კონფერენცია</a>
+            <a href="/standup.html">სტენდაფი</a>
+            <a href="/turizmi/turizmi.html">ტურიზმი</a>
+            <a href="/hobby/hobi.html">ჰობი</a>
+            <a href="/project-masterclas/oto.html">მასტერკლასი</a>
+            <a href="/project-museum/museum.html">მუზეუმი</a>
+            <a href="/saertashoriso/nini.html">საერთაშორისო</a>
+            <hr>
+            <a href="/frena/index.html" class="cat-bar-flight"><img src="/fly-icon.svg" alt="">ფრენა <img src="./icons8-up-right-24.png" alt=""></a>
+        </div>
+    </div>
+    <button class="arrow left">◀</button>
+    <ul class="categorie">
+    <li><a href="/music_concert/index.html"><img src="/music-concert.svg" alt="">მუსიკა/კონცერტი</a></li>
+    <li><a href="/kino/index.html"><img src="/cinema.svg" alt="">კინო</a></li>
+    <li><a href="/JLDEV SquadProeqti 1/rkinigza/index.html"><img src="/railway.svg" alt="">რკინიგზა</a></li>
+    <li>
+        <div class="transport-new">
+            <div class="transport-new-span">
+                <span class="transport-new-span-text">სიახლე</span>
+            </div>
+            <a href="/JLDEV SquadProeqti 1/index.html"><img src="./transport.svg" alt="" class="transport-new"> ტრანსპორტი</a>
+        </div>
+        
+    </li>
+    <li><a href="/New folder (12)/index.html"><img src="/theatre.svg" alt=""> თეატრი</a></li>
+    <li><a href="/opera/index.html"><img src="/opera.svg" alt=""> ოპერა</a></li>
+    <li><a href="/sport-and-sea-main/sport/sport.html"><img src="/sport.svg" alt=""> სპორტი</a></li>
+    <li><a href="/sport-and-sea-main/sport/sea.html"><img src="/sea.svg" alt=""> ზღვა</a></li>
+    <li><a href="/festivali/festivali.html"><img src="/festival.svg" alt=""> ფესტივალი</a></li>
+    <li><a href="/DACHI F/PROEKTI/intel.html"><img src="/kids.svg" alt=""> საბავშვო</a></li>
+    <li><a href="/DACHI F/PROEKTI/gadasvla.html"><img src="/conferences.svg" alt=""> კონფერენცია</a></li>
+    <li><a href="/standup.html"><img src="/standup.svg" alt=""> სტენდაფი</a></li>
+    <li><a href="/turizmi/turizmi.html"><img src="/turism.svg" alt=""> ტურიზმი</a></li>
+    <li><a href="/hobby/hobi.html"><img src="/hobby.svg" alt=""> ჰობი</a></li>
+    <li><a href="/project-masterclas/oto.html"><img src="/masterclass.svg" alt=""> მასტერკლასი</a></li>
+    <li><a href="/project-museum/museum.html"><img src="/museum.svg" alt=""> მუზეუმი</a></li>
+    <li><a href="/saertashoriso/nini.html"><img src="/international.svg" alt=""> საერთაშორისო</a></li>
+</ul>
+    <button class="arrow right">▶</button>
+    <button class="fly-btn"><a href="/frena/index.html" class="fly-href"><img src="/fly-icon.svg" alt=""><span class="fly-span">ფრენა</span> <img src="./icons8-up-right-24.png" alt=""></a></button>
+
+</div>
+        </nav>
+    </div>
+</header>
+    <div>
+        <h1 class="textt">მუზეუმების და გამოფენების ბილეთები</h1>
+        <P class="text-p">ივნისი</P>
+    </div>
+    
+    <div class="head">
+
+
+
+               
+              <div class="calendarBox">
+                <div class="dropdown">
+                    <button class="calendarBtn" id="calendarBtn">
+                        <span><i class="fa-regular fa-calendar"></i></span>
+                    </button>
+
+                    <div class="dropdownCal" id="dropdownCal">
+                        <div class="monthsCont">
+                            <div class="monthBox">
+                                <div class="monthTitle">მაისი 2026</div>
+                                <div class="weekdays">
+                                    <div>ორშ</div><div>სამშ</div><div>ოთხ</div><div>ხუთ</div><div>პარ</div><div>შაბ</div><div>კვი</div>
+                                </div>
+                                <div class="daysGrid" id="mayGrid"></div>
+                            </div>
+                            <div class="monthBox">
+                                <div class="monthTitle">ივნისი 2026</div>
+                                <div class="weekdays">
+                                    <div>ორშ</div><div>სამშ</div><div>ოთხ</div><div>ხუთ</div><div>პარ</div><div>შაბ</div><div>კვი</div>
+                                </div>
+                                <div class="daysGrid" id="juneGrid"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="horizScroll" id="horizScroll"></div>
+              </div>
+              <div class="newDrop">
+                <div class="dropdownTrig" id="dropdownTrigger">
+                    <span class="sortIcon"><i class="fa-solid fa-align-left"></i></span>
+                    <span class="selText">მოახლოებული</span>
+                    <span class="arrowIcon">></span>
+                </div>
+
+                <div class="dropMenu" id="dropMenu">
+                    <div class="dropdownItem" data-value="upcoming">მოახლოებული</div>
+                    <div class="dropdownItem" data-value="price-asc">ფასი - ზრდადობით</div>
+                    <div class="dropdownItem" data-value="price-desc">ფასი - კლებადობით</div>
+                </div>
+              </div>
+            </div>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <main>
+                <div class="mainn">
+                <div class="mainn1">
+                    
+                      <div class="maiin1" id="card36" >
+                    <div class="maiin">   <img class="imgg" src="./5b291f77-cc75-4356-bbf6-2c4411f3cf93.webp" alt=""> </div>
+                        <div class="diescribe">
+                            <h4 class="describe-tag">ილუზიების მუზეუმი<br>
+                            </h4>
+                            <h4 class="describe-tag1">30₾-დან</h4>
+                        </div>
+                        <p class="describe-p">ილუზიების მუზეუმი</p>
+                    </div>
+
+                      <div class="maiin1" id="card37">
+                    <div class="maiin">   <img class="imgg" src="./cc217154-02e6-43ad-9525-9a6f65801e61.jpg" alt=""> </div>
+                        <div class="diescribe">
+                            <h4 class="describe-tag">ქვევრის და ქვევრის ღვინის მუზეუმი<br>
+                            </h4>
+                            <h4 class="describe-tag1">5₾-დან</h4>
+                        </div>
+                        <p class="describe-p">ნაფარეული</p>
+                    </div>
+
+                     <div class="maiin1" id="card38">
+                    <div class="maiin">   <img class="imgg" src="./001fa9f1-c434-4609-bf79-7920f34306f5.webp" alt=""> </div>
+                        <div class="diescribe">
+                            <h4 class="describe-tag">ვინსეტ ვან გოგის გამოფენა<br>
+                            </h4>
+                            <h4 class="describe-tag1">20₾-დან</h4>
+                        </div>
+                        <p class="describe-p">თბლისის ცუფრული სიცვრცე</p>
+                    </div>
+
+
+                     <div class="maiin1" id="card39">
+                    <div class="maiin">   <img class="imgg" src="./d292f275-b982-43f5-be5e-efc10b4890c9.jpg" alt=""> </div>
+                        <div class="diescribe">
+                            <h4 class="describe-tag">ვან გოგის გამოფენა<br>
+                            </h4>
+                            <h4 class="describe-tag1">30₾-დან</h4>
+                        </div>
+                        <p class="describe-p">Holoseum</p>
+                    </div>
+
+
+
+                     <div class="maiin1" id="card40">
+                    <div class="maiin">   <img class="imgg" src="./3d202645-081e-44ad-91e6-e2ec8ce93ad9.webp" alt=""> </div>
+                        <div class="diescribe">
+                            <h4 class="describe-tag">აჭარის ხარიტონ ახვლედიანის სახელობის <br>
+                            მუზეუმი</h4>
+                            <h4 class="describe-tag1"></h4>
+                        </div>
+                        <p class="describe-p">აჭარის ხარიტონ ახვლედიანის სახელობის მუზეუმი</p>
+                    </div>
+
+
+                     <div class="maiin1" id="card41">
+                    <div class="maiin">   <img class="imgg" src="./c695ac28-a8f6-40df-b8c1-75d97b00d04e.jpg" alt=""> </div>
+                        <div class="diescribe">
+                            <h4 class="describe-tag">ძმები ნობელების სახელობის ბათუმის <br>
+                            ტექნოლოგიური მუზეუმი</h4>
+                            <h4 class="describe-tag1"></h4>
+                        </div>
+                        <p class="describe-p">ძმები ნობელების სახელობის ბათუმის ტექნოლოგიუ...</p>
+                    </div>
+
+
+                     <div class="maiin1" id="card42">
+                    <div class="maiin">   <img class="imgg" src="./1a3eb8d4-b8c4-4747-b593-69d33e6d53d6.jpg" alt=""> </div>
+                        <div class="diescribe">
+                            <h4 class="describe-tag">აჭარის ხელოვნების მუზეუმი<br>
+                            </h4>
+                            <h4 class="describe-tag1">
+                        </div>
+                        <p class="describe-p">აჭარის ხელოვნების მუზეუმი</p>
+                    </div>
+
+
+                     <div class="maiin1" id="card43">
+                    <div class="maiin">   <img class="imgg" src="./99baffb5-4757-440f-978b-c42ed027eb51.jpg" alt=""> </div>
+                        <div class="diescribe">
+                            <h4 class="describe-tag">რელიგიის მუზეუმი<br>
+                            </h4>
+                            <h4 class="describe-tag1"></h4>
+                        </div>
+                        <p class="describe-p">რელიგიის მუზეუმი(ბათუმი)</p>
+                    </div>
+
+
+                     <div class="maiin1" id="card44">
+                    <div class="maiin">   <img class="imgg" src="./2a2f19e7-de6a-4b6c-b4fd-c330e689aaf6.webp" alt=""> </div>
+                        <div class="diescribe">
+                            <h4 class="describe-tag">საქართვერლოს ეროვნული მუზეუმი<br>
+                            </h4>
+                            <h4 class="describe-tag1">2₾-დან</h4>
+                        </div>
+                        <p class="describe-p"></p>
+                    </div>
+
+
+                     <div class="maiin1" id="card45">
+                    <div class="maiin">   <img class="imgg" src="./8cab961b-36b3-4bcc-9e44-301febf46135.webp" alt=""> </div>
+                        <div class="diescribe">
+                            <h4 class="describe-tag">იოსებ სტალინის სახელმწიფო<br>
+                            მუზეუმი</h4>
+                            <h4 class="describe-tag1">5₾-დან</h4>
+                        </div>
+                        <p class="describe-p">იოსებ სტალინის სახელმწიფო მუზეუმი (გორი)</p>
+                    </div>
+
+
+                     <div class="maiin1" id="card46">
+                    <div class="maiin">   <img class="imgg" src="./8f8046d9-d406-45eb-85a3-0f19ce466f8d.webp" alt=""> </div>
+                        <div class="diescribe">
+                            <h4 class="describe-tag">პეტრას ციხესიმაგრე<br>
+                            </h4>
+                            <h4 class="describe-tag1">2₾-დან</h4>
+                        </div>
+                        <p class="describe-p">პეტრას ციხე</p>
+                    </div>
+
+
+                     <div class="maiin1" id="card47">
+                    <div class="maiin">   <img class="imgg" src="./5c097b8a-7885-4576-98a7-801da368ae1b.jpg" alt=""> </div>
+                        <div class="diescribe">
+                            <h4 class="describe-tag">გონიო-აფსაროსის ციხე-სიმაგრე<br>
+                            </h4>
+                            <h4 class="describe-tag1">2₾-დან</h4>
+                        </div>
+                        <p class="describe-p">გონიოს ციხე</p>
+                    </div>
+
+
+                     
+
+                     
+                    
+
+                  
+                    
+                    
+                    
+                    
+
+
+
+
+
+
+                </div>
+                   
+        
+                </div>
+
+            </main>
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="FAQs">
+                <div class="butTex">
+                    <button class="faqBtn"><i class="fa-solid fa-comment"></i> FAQs</button>
+                    <h2 class="h2">ხშირად დასმული კითხვები</h2>
+                </div>
+                <div class="detailsDiv">
+                    <details class="faqItem">
+                        <summary>როგორ შევიძინო კონცერტის ბილეთი ონლაინ?</summary>
+                        <div class="faqContent">
+                            <p class="fp">პროცესი მარტივია: აირჩიეთ სასურველი ღონისძიება, მონიშნეთ ადგილი დარბაზის <br>
+                            რუკაზე, შეავსეთ საკონტაქტო ინფორმაცია და გადაიხადეთ. ბილეთი მყისიერად <br>
+                            გამოიგზავნება ელ-ფოსტაზე.
+                            </p>
+                        </div>
+                    </details>
+                    <details class="faqItem">
+                        <summary>ვრცელდება თუ არა ასაკობრივი შეზღუდვა კონცერტებზე?</summary>
+                        <div class="faqContent">
+                            <p class="fp">დამოკიდებულია ღონისძიებასა და ლოკაციაზე. კლუბურ ღონისძიებებზე ხშირად <br>
+                            მოქმედებს 18+ ან 21+ ზღვარი, ხოლო ღია ცის ქვეშ გამართულ კონცერტებზე <br>
+                            შეზღუდვა იშვიათია. დეტალები ყოველთვის ღონისძიების გვერდზეა მითითებული.</p>
+                        </div>
+                    </details>
+                    <details class="faqItem">
+                        <summary>შესაძლებელია თუ არა ბილეთის დაბრუნება ან გადაცვლა?</summary>
+                        <div class="faqContent">
+                            <p class="fp">სტანდარტული წესით, შეძენილი ბილეთის დაბრუნება ან სხვა ღონისძიებაში <br>
+                            გადაცვლა არ ხდება, გარდა იმ შემთხვევებისა, როდესაც ორგანიზატორი წინასწარ <br>
+                            აცხადებს გამონაკლისს ან ღონისძიება უქმდება.</p>
+                        </div>
+                    </details>
+                    <details class="faqItem">
+                        <summary>რა ხდება, თუ კონცერტი გადაიდო ან გაუქმდა?</summary>
+                        <div class="faqContent">
+                            <p class="fp">გაუქმების შემთხვევაში, გადახდილი თანხა მომხმარებელს უბრუნდება იმავე <br>
+                            საბანკო ანაგრიშზე, საიდანაც ბილეთი იყიდა. ხოლო ღონისძიების გადადებისას <br>
+                            ბილეთი ავტომატურად ძალაში რჩება ახალი თარიღისთვის.</p>
+                        </div>
+                    </details>
+                    <details class="faqItem">
+                        <summary>აუცილებელია თუ არა ბილეთის ამობეჭდვა?</summary>
+                        <div class="faqContent">
+                            <p class="fp">არა. კონცერტზე შესასვლელად საკმარისია QR კოდი მობილურის ეკრანიდან.</p>
+                        </div>
+                    </details>
+                    <details class="faqItem">
+                        <summary>რატომ მხვდება რიგის სისტემა ბილეთების ყიდვისას?</summary>
+                        <div class="faqContent">
+                            <p class="fp">პოპულარულ კონცერტებზე, მაღალი მოთხოვნის გამო, სისტემის <br>
+                            სტაბილურობისთვის ირთვება ონლაინ რიგი. ვირტუალურ რიგში თქვენ ხედავთ <br>
+                            თქვენს ნომერს და მოლოდინის დროს. არ დახუროთ ან განაახლოთ გვერდი, რათა <br>
+                            არ დაკარგოთ ადგილი; როდესაც თქვენი რიგი მოვა, სისტემა თავად გადაგიყვანთ <br>
+                            ბილეთების შერჩევის გვერდზე.</p>
+                        </div>
+                    </details>
+                    <details class="faqItem">
+                        <summary>რა არის Early Bird ბილეთები და როგორ დავზოგო თანხა?</summary>
+                        <div class="faqContent">
+                            <p class="fp">Early Bird არის გაყიდვების პირველ ეტაპზე გამოტანილი შეზღუდული რაოდენობის <br>
+                            ბილეთები ყველაზე დაბალ ფასად. ეს კალათა ყველაზე სწრაფად იწურება, რის <br>
+                            შემდეგაც გაყიდვა ავტომატურად გადადის მომდევნო ეტაპზე შედარებით მაღალი <br>
+                            ფასით. რაც უფრო ადრე შეიძენთ ბილეთს, მით მეტს დაზოგავთ.</p>
+                        </div>
+                    </details>
+                </div>
+
+                <div class="readMore">
+                    <div class="moreText" id="textBlock">
+                        <h3 class="hh3">კონცერტის ბილეთები და მუსიკალური ღონისძიებები საქართველოში</h3>
+                        <div class="bigTxt">
+                            <p class="parp">საყვარელი არტისტის სცენაზე ხილვა და ცოცხალი მუსიკის მოსმენა ის გამოცდილებაა, რომელიც ყოველდღიური რუტინიდან გვაშორებს. ბოლო წლებში ქვეყანაში <br>
+                            კულტურული და საკლუბო ცხოვრება ბევრად აქტიური გახდა. ლოკალური თუ საერთაშორისო მასშტაბის ღონისძიებების რიცხვი იზრდება, შესაბამისად, სასურველი <br>
+                            კონცერტები საქართველოში მუსიკის მოყვარულთათვის უფრო მრავალფეროვანი და ხელმისაწვდომი ხდება.</p> 
+                            <p class="parp">თუმცა, სასურველ ღონისძიებაზე მოხვედრა ადამიანებისთვის ხშირად სირთულეებთანაა დაკავშირებული - ინფორმაცია სხვადასხვა საიტსა თუ სოციალურ ქსელშია <br>
+                            გაფანტული, სალაროებთან რიგში დგომა დროის კარგვაა, ყველაზე მოთხოვნადი კონცერტის ბილეთები კი ხშირად მაშინ სრულდება, როცა ჯერ კიდევ დაგეგმვის პროცესში <br>
+                            ვართ <span class="blue">.TKT</span> სწორედ ამ გამოცდილების გასამარტივებლად შეიქმნა. ეს არის პლატფორმა, სადაც ერთ სივრცეში სრული სურათით ხედავთ ყველა დაგეგმილ მუსიკალურ <br>
+                            ღონისძიებას, სასურველ ადგილს კი ტელეფონის ეკრანიდან, სულ რამდენიმე წუთში ჯავშნით.</p> 
+                            <h4 class="h4">რატომ უნდა დაგეგმო მუსიკალური საღამო ონლაინ?</h4> 
+                            <p class="parp">ფიზიკური სალაროებიდან ციფრულ სივრცეში გადანაცვლება არა მხოლოდ კომფორტი, არამედ გარანტიაა, რომ შენს ადგილს დარბაზში არავინ დაიკავებს. პოპულარული <br>
+                            კონცერტების ბილეთები ხშირად სალაროს გახსნამდე ბევრად ადრე იყიდება, ონლაინ პლატფორმა კი საშუალებას გაძლევს, პირველმა ნახო სასურველი კონცერტი და <br>
+                            დაჯავშნო ადგილი.</p> 
+                            <p><strong class="pst">მუსიკალური ღონისძიებების მრავალფეროვანი არჩევანი</strong></p>
+                            <p class="parp">მსმენელებისთვის გადამწყვეტია ერთ სივრცეში სრული სურათის დანახვა. TKT-ზე თავს იყრის ყველა ტიპის ღონისძიება. გაინტერესებთ მასშტაბური კონცერტები თბილისში, <br> 
+                            თუ ლოკალური, მცირე ზომის live music ბილეთები? აქ ყველაფერი ერთადაა, რაც გეხმარება, არ გამოგრჩეს მნიშვნელოვანი სიახლეები და წინასწარ დაგეგმო დასვენების <br>
+                            დღეები.</p> 
+                            <p><strong class="pst">ბილეთების ყიდვა ონლაინ რამდენიმე წუთში, ნებისმიერი ადგილიდან</strong></p>
+                            <p class="parp">ბილეთების ყიდვა ონლაინ აღარ მოითხოვს რთულ და ხანგრძლივ პროცედურებს. რამდენიმე მარტივი ნაბიჯით, საცობში ყოფნისას თუ მუშაობის პარალელურად, შეგიძლია <br> 
+                            გაეცნო ღონისძიების დეტალებს და შეიძინო ბილეთი. ეს იდეალური გამოსავალია მათთვის, ვისაც დატვირთული სამუშაო გრაფიკი აქვს და დამატებითი დროის გამოყოფა <br>
+                            უჭირს.</p>
+                            <p><strong class="pst">ადგილის შერჩევა ციფრული რუკის დახმარებით</strong></p>
+                            <p class="parp">ონლაინ შეძენისას ერთ-ერთი მთავარი უპირატესობა ინტერაქციული რუკაა. თქვენ ზუსტად იცით, სად ისხდებით, როგორი იქნება ხილვადობა სცენასთან მიმართებით და <br> 
+                            რამდენად ახლოს იქნებით საყვარელ შემსრულებელთან. ადგილის გააზრებული შერჩევა გაცილებთ მოულოდნელობებს და გიქმნით კომფორტს.</p>
+                            <h4 class="h4">სივრცეები, რომლებიც საუკეთესო ატმოსფეროს ქმნის</h4>
+                            <p class="parp">სასიამოვნო მუსიკალური საღამო პირდაპირ კავშირშია იმ სივრცესთან, სადაც ის ტარდება. საქართველოში არაერთი გამორჩეული ლოკაციაა, რომელიც სხვადასხვა <br>
+                            გემოვნებისა თუ მოთხოვნის მსმენელს მასპინძლობს, ჩვენ კი ამ სივრცეებთან აქტიურად ვთანამშრომლობთ.</p> 
+                            <ul>
+                                <li><p class="pl"><strong class="sl">შუაგული:</strong>თუკი ქალაქის ხმაურისგან დასვენება და ბუნებაში მუსიკის მოსმენა გიზიდავთ, ეს ლოკაცია შეუცვლელია. ის იდეალურია საზაფხულო ფესტივალებისა და ღია ცის <br>
+                                ქვეშ გამართული იმ ღონისძიებებისთვის, სადაც ატმოსფერო ისეთივე მნიშვნელოვანია, როგორც მუსიკა.</p></li>
+                                <li><p class="pl"><strong class="sl">თბილისის სახელმწიფო კონსერვატორია:</strong>კლასიკური მუსიკის მოყვარულებისთვის ეს მთავარი დანიშნულების ადგილია. მისი ისტორიული დარბაზი და უნიკალური <br>
+                                აკუსტიკა კლასიკურ საღამოებს სრულიად სხვა ჟღერადობას სძენს.</p></li>
+                                <li><p class="pl"><strong class="sl">ფილარმონია (თბილისის საკონცერტო დარბაზი):</strong>ეს ადგილი ათწლეულებია ქალაქის კულტურული ცხოვრების ეპიცენტრია. კონცერტი ფილარმონიაში ბევრისთვის <br>
+                                ტრადიციაა და ბილეთები ყოველთვის მოთხოვნადია.</p></li>
+                                <li><p class="pl"><strong class="sl">თეატრი:</strong>მათთვის, ვინც მრავალმხრივ გამოცდილებას ეძებს, ეს მულტიფუნქციური სივრცე საუკეთესო არჩევანია. აქ ერთმანეთს გასტრონომია და საშემსრულებლო <br>
+                                ხელოვნება ერწყმის, რაც საღამოს უფრო ინტიმურსა და დახვეწილს ხდის.</p></li>
+                                <li><p class="pl"><strong class="sl">Black Sea Arena:</strong>როდესაც საქმე მსოფლიო დონის ვარსკვლავებსა და გრანდიოზულ შოუებს ეხება, მთელი ყურადღება შეკვეთილისკენ არის მიმართული. ბილეთები Black <br>
+                                Sea Arena-ზე ნიშნავს, რომ თქვენ ხდებით მაღალტექნოლოგიური და მასშტაბური სანახაობის ნაწილი.</p></li>
+                            </ul> 
+                            <h4 class="h4">პოპულარული მუსიკალური ჟანრები მსმენელის ინტერესების მიხედვით</h4> 
+                            <p class="parp">აუდიტორია მრავალფეროვანია და ცოცხალ მუსიკასთან დაკავშირებით თითოეულ ჯგუფს თავისი მოლოდინი აქვს.</p> 
+                            <ul>
+                                <li><p class="pl"><strong class="sl">ტურისტული სეგმენტი და ლოკალური კულტურა:</strong> უცხოელი ვიზიტორების დიდი ნაწილი მიზანმიმართულად ეძებს ავთენტურ გამოცდილებას. მათთვის ქართული ესტრადა, <br>
+                                ტრადიციული მოტივები და ფოლკლორი მთავარი ინტერესის საგანია. ტურისტების მეორე ნაწილი კი ქვეყანაში სპეციალურად ჩამოდის რეგიონული ფესტივალებისა თუ <br>
+                                საერთაშორისო არტისტების მოსასმენად.</p></li>
+                                <li class="pl"><p><strong class="sl">ღამის ცხოვრება და ელექტრონული მუსიკა:</strong>ახალგაზრდებისთვის კლუბები თბილისში და ელექტრონული მუსიკის ღონისძიებები განტვირთვისა და სოციალიზაციის <br>
+                                მთავარი წყაროა. თბილისის საკლუბო სცენა დიდი ხანია გასცდა ლოკალურ მასშტაბებს და საერთაშორისო აღიარება მოიპოვა.</p></li>
+                                <li><p class="pl"><strong class="sl">მშვიდი და კლასიკური საღამოები:</strong>წყვილებისთვის, ოჯახებისა თუ მეგობრების ჯგუფებისთვის ხშირად პრიორიტეტულია კლასიკური მუსიკის კონცერტები ან ჯაზის <br>
+                                საღამოები. ასეთი ღონისძიებები იძლევა საშუალებას, ერთად გატარებული დრო ესთეტიკურად და ემოციურად დატვირთული იყოს.</p></li>
+                                <li><p class="pl"><strong class="sl">პოპ და როკ მუსიკა:</strong>განსაკუთრებით მოთხოვნადია მასობრივი პოპ და როკ კონცერტები თბილისში, რომლებიც დიდ აუდიტორიას აერთიანებს და სტადიონებზე თუ ღია <br>
+                                სივრცეებში დაუვიწყარ ატმოსფეროს ქმნის.</p></li>
+                            </ul> 
+                            <h4 class="h4">თბილისის ღამის ცხოვრება და ელექტრონული მუსიკა</h4>
+                            <p class="parp">ახალგაზრდებისთვის კლუბები თბილისში და ელექტრონული მუსიკის ღონისძიებები განტვირთვისა და სოციალიზაციის მთავარი წყაროა. თბილისის საკლუბო სცენა დიდი <br>
+                            ხანია გასცდა ლოკალურ მასშტაბებს და საერთაშორისო აღიარება მოიპოვა. ელექტრონული მუსიკის ღონისძიებები და ყოველკვირეული ივენთები ქალაქის კულტურული <br>
+                            ცხოვრების განუყოფელი ნაწილია. პლატფორმაზე მუდმივად ნახავ თბილისის წამყვანი კლუბებისა და ანდერგრაუნდ სივრცეების განრიგს. ეს სეგმენტი გამოირჩევა მაღალი <br>
+                            დინამიკით, ამიტომ ბილეთების წინასწარ, ონლაინ შეძენა საუკეთესო გზაა, რათა თავიდან აიცილო რიგები შესასვლელთან და გარანტირებულად მოხვდე სასურველ ივენთზე.</p>
+                            <h4 class="h4">ბილეთის ონლაინ შეძენის პროცესი</h4>
+                            <p class="parp">სასურველი ღონისძიების მოძიება <span class="blue">TKT</span>-ზე მარტივია.</p>
+                            <ol>
+                                <li><p class="pl"><strong class="sl">ძიება:</strong>მოძებნეთ ღონისძიება თარიღის მიხედვით.</p></li>
+                                <li><p class="pl"><strong class="sl">დეტალების გაცნობა:</strong>გადაამოწმეთ დაწყების დრო, ლოკაცია და ღონისძიების სპეციფიკა.</p></li>
+                                <li><p class="pl"><strong class="sl">ადგილის შერჩევა:</strong>გახსენით დარბაზის ვირტუალური რუკა და მონიშნეთ კონკრეტული სკამი ან ზონა შენი ბიუჯეტისა და სურვილის შესაბამისად.</p></li>
+                                <li><p class="pl"><strong class="sl">გადახდა:</strong>მიუთითეთ საჭირო მონაცემები და გადაიხადეთ უსაფრთხოდ.</p></li>
+                            </ol> 
+                            <p class="parp">შეძენის შემდეგ, ბილეთი მომენტალურად გამოიგზავნება ელ-ფოსტაზე და პირად პროფილშიც აისახება.</p> 
+                            <p class="parp">მაღალი მოთხოვნის მქონე ღონისძიებებზე თავისუფალი ადგილები ძალიან სწრაფად ქრება. შეარჩიე საინტერესო არტისტი და დაჯავშნე ადგილი ახლავე.</p>
+                        </div>
+                    </div>
+                    <button class="moreBtn" id="toggleBtn">
+                        <span class="btnTxt">ვრცლად</span>
+                        <span class="btnArr"><i class="fa-solid fa-arrow-down"></i></span>
+                    </button>
+                </div>
+                <div class="downloadDiv">
+                    <img class="img2" src="./app-store.svg" alt="">
+                    <img class="img2" src="./google-play.svg" alt="">
+                    <p class="dp">გადმოწერე აპლიკაცია და მიიღე მუდმივად განახლებული <br>
+                    ინფორმაცია მარტივად</p>
+                </div>
+                <hr>
+            </div>
+    <script src="./museum.js"></script>
+    
+
+
+
+
+    
+</body>
+</html>

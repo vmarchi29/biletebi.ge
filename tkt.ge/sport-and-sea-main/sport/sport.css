@@ -1,0 +1,2208 @@
+
+
+
+:root {
+   --main-font-font-family: system-ui, -apple-system, Arial, Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+   --background-color: rgb(244 244 245);
+}
+.sport-body {
+    background-color: rgb(244 244 245);
+    margin: 0px;
+}
+
+.sports-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.calendar-head{
+    width: 51%;
+    display: flex;
+    justify-content: center;
+}
+.clubs-container {
+    display: grid;
+    grid-template-rows: 35vh 35vh 35vh 35vh;
+    grid-template-columns: 19% 19% 19% 19% ;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    padding: 0px 0px 30px 0px;
+}
+.clubs-container > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sports-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.img-container {
+    width: 100%; 
+    overflow: hidden; 
+    border-radius: 15px; 
+}
+
+.img-container > a > img {
+    width: 100%;
+    display: block;
+    transition: transform 0.3s ease; 
+}
+
+.img-container > a > img:hover {
+    transform: scale(1.1); 
+}
+.img-container:hover + .sports-text > h4 {
+    color: #007aff;
+}
+
+.sports-text > p{
+    margin-top: 0px;
+}
+.sports-text > a {
+    font-size: 14px;
+    width: 80px;
+    text-align: end;
+    color: #007aff;
+    text-decoration: none;
+    font-family: var(--main-font-font-family); 
+}   
+.sports-text > h4 {
+    width: 200px;
+    margin: 5px 0px 0px 0px;
+    font-size: 12px;
+    line-height: 20px;
+    transition: color 0.3s ease;
+    font-family: var(--main-font-font-family);
+}
+.clubs-container > div > p {
+    margin: 10px 0 0 0;
+    font-size: 13px;
+}
+.clubs-container > div > .ananuri {
+    width: 150px;
+}
+.academy > h4 {
+    font-size: 12px;
+    width: 200px;
+}
+.academy2 > h4 {
+    margin: 5px 0px 30px 0px;
+    font-size: 12px;
+}
+.academy2 > a {
+     margin: 0px 0px 30px 0px;
+}
+.scross {
+    position: relative;
+}
+.scoress-item {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background-color: rgb(39 42 55);
+    width: 55px;
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.scoress-item > a {
+    color: white;
+    text-decoration: none;
+    font-family: var(--main-font-font-family);
+    font-size: 13px;
+}
+.scoress-item2 {
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+    justify-content: space-around;
+}
+.scoress-item2 > div {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.scoress-item2 > div > a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: var(--main-font-font-family);
+}
+
+/* question-container */
+.faqs {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+.faqs > div {
+    padding: 10px 30px;
+    background-color: salmon;
+    border-radius: 20px;
+}
+.faqs > div > h3 {
+    text-align: center;
+    font-weight: 100;
+    margin: 0;   
+    font-size: 10px;
+    color: white;
+}
+.question-section > h2 {
+    text-align: center;
+}
+.question-section {
+    padding: 50px 0px 20px 0px;
+    background-color: white;
+}
+
+.question-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;   
+}
+.FAQs {
+    background-color: white;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    padding: 60px 0;
+}
+.butTex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.detailsDiv {
+    display: grid;
+    grid-template-columns: 39% 39%;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: start;
+}
+.faqItem {
+    background: rgb(244 244 244) ;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 100%;
+}
+summary {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fp {
+    color: #1a2b42;
+    font-size: 13px;
+    line-height: 1.5;
+}
+.faqBtn {
+    padding: 6px 12px;
+    background-color: rgb(241, 12, 138);
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.fa-comment {
+    color: white;
+}
+.h2 {
+    color: rgb(39 42 55);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.readMore {
+    max-width: 3000px;
+    margin: 40px auto;
+    text-align: left;
+}
+.moreText {
+    max-height: 140px;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    line-height: 1.6;
+    color: #4a4a4a;
+    position: relative;
+}
+.moreText::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(to bottom, rgba(255,255,255, 0), #ffffff);
+    transition: opacity 0.3s ease;
+}
+.moreText.open {
+    max-height: 1900px;
+}
+.moreText.open::after {
+    opacity: 0;
+    pointer-events: none;
+}
+.moreBtn {
+    background-color: rgb(220, 216, 216);
+    border-radius: 20px;
+    border: none;
+    color: #201f1f;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 15px;
+    padding: 12px 15px;
+    box-shadow: 0 10px 20px rgb(0,0,0,0.15);
+}
+.btnArr {
+    transition: transform 0.3s ease;
+}
+.moreBtn.expanded .btnArr {
+    transform: rotate(180deg);
+}
+.hh3 {
+    color: #1a2b42;
+}
+.parp {
+    font-size: 14px;
+}
+.h4 {
+    color:#1a2b42;
+}
+.pst {
+    font-size: smaller;
+}
+.pl {
+    font-size: 12px;
+}
+ol li {
+    font-size: smaller;
+}
+.blue {
+    color: rgb(21, 115, 247);
+}
+.downloadDiv {
+    max-width: 100%;
+    display: flex;
+    margin: 40px auto;
+    align-items: left;
+    gap: 13px;
+}
+.img2 {
+    width: 100px;
+}
+.dp {
+    font-size: 11px;
+}
+.fa-arrow-down {
+    font-size: smaller;
+}
+.FAQs {
+    padding: 0;
+}
+.readMore {
+    margin: 100px 0px 30px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.moreText {
+  width: 80%;
+}
+.readMore > button {
+    position: absolute;
+    left: 10%;
+    bottom: -1%;
+}
+
+/* sport-ticets */
+.sport-tickets-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.tickets-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    position: relative;
+}
+.tickets-container > button {
+    position: absolute;
+    bottom: 5px;
+    display: flex;
+    padding: 10px 15px;
+    gap: 5px;
+    border-radius: 25px;
+    border: none;
+}
+.rickets-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    position: relative;
+}
+.rickets-container2 > button {
+    position: absolute;
+    display: flex;
+    bottom: 5px;
+    padding: 10px 15px;
+    gap: 5px;
+    border-radius: 25px;
+    border: none;
+}
+.rickets-container2 > button > .arrow {
+    transform: rotate(180deg);
+}
+.expandable-text {
+    max-height: 80px;
+    overflow: hidden;
+    transition: max-height 0.6s ease-in-out;
+    position: relative; 
+}
+.expandable-text::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    pointer-events: none; 
+    transition: opacity 0.3s;
+}
+.expandable-text.open::after {
+    opacity: 0;
+}
+.hidden {
+    display: none;
+}
+.arrow-transform {
+    transform: rotate(-180deg);
+}
+
+/* Sailing-Club */
+.saling-club-body {
+    margin: 0px;
+    background-image: url(sport-imgs/saling-body.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.saling-club-body > img {
+    width: 300px;
+}
+.Sailing-Club-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Sailing-Club {
+    width: 70%; 
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.saling-club-img {
+    width: 100%;
+    height: 400px;
+    background-image: url(sport-imgs/78a027e3-d1e4-4f6f-9de0-3770dbcadfd1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.Sailing-Club-Laser > p {
+    margin: 0px;
+}
+.Sailing-Club-Laser > h2 {
+    margin-top: 0px;
+}
+.Sailing-Club-Laser {
+    width: 90%;
+}
+.saling-club-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    padding: 40px 30px 30px 30px;
+    flex-direction: row;
+}
+.saling-club-ticket {
+    width: 300px;
+    height: 180px;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+.saling-club-ticket > button {
+    width: 80%;
+    height: 55px;
+    color: white;
+    background-color: rgb(13 114 237 / 96%);
+    border: none;
+    border-radius: 10px;
+}
+.saling-club-ticket > button:hover {
+    background-color: rgba(0, 82, 182, 0.979);
+    cursor: pointer;
+}
+.saling-club-ticket > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.saling-club-ticket > div > h4 {
+    margin: 0 0 10px 0;
+}
+.Sailing-Club-Laser > div {
+    margin-top: 20px;
+}
+.Sailing-Club-Laser > div > p {
+    color: red;
+    margin: 0px;
+}
+.Sailing-Club-Laser > div > button {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(244 244 245);
+    width: 110px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+}
+.Sailing-Club-Laser > div > button:hover {
+    background-color: rgb(223, 223, 223);
+    cursor: pointer;
+}
+.Sailing-Club-Laser > div > button > h5 {
+    margin: 0px;
+}
+.saling-club-ticket > div > div > a > img {
+   width: 20px;
+}
+.saling-club-ticket > div > div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(140, 190, 255);
+    margin: 0px 10px 0px 0px;
+}
+.saling-club-ticket > div > a > h4 {
+    margin: 0px;
+    text-decoration: none;
+    color: black;
+}
+.saling-club-ticket > div > a {
+    text-decoration: none;
+}
+
+.Sailing-Club-Laser > div > p::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    pointer-events: none; 
+    transition: opacity 0.3s;
+}
+.hidden-p {
+    display: none !important;
+}
+.texts {
+    max-height: 180px;
+    overflow: hidden;
+    transition: max-height 0.6s ease-in-out;
+    position: relative; 
+}
+.texts::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    pointer-events: none; 
+    transition: opacity 0.3s;
+}
+.aroww-transform {
+    transform: rotate(180deg);
+}
+.map-container {
+    padding: 0px 50px 50px 50px;
+}
+.map-container > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.map-container > div > div > a > button > img {
+    width: 30px;
+}
+.map-container > div > div > h4 {
+    margin: 0px;
+}
+.map-container > div > div > p {
+    margin: 0px;
+}
+.map-container > div > div > a > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: none;
+    background-color: rgb(39 42 55);
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+.map-container > div > div > a {
+    text-decoration: none;
+}
+.map-container > div > div > a > button:hover {
+    cursor: pointer;
+    background-color: rgba(39, 42, 55, 0.822);
+}
+
+/* saling-club-Yacht-body */
+.saling-club-Yacht-body {
+    margin: 0px;
+    background-image: url(sport-imgs/saling-body.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.saling-club-Yacht-img {
+    width: 100%;
+    height: 400px;
+    background-image: url(sport-imgs/georgian\ saling\ club.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.saling-club-Yacht > div {
+    margin-top: 0px;
+}
+.saling-club-Yacht-text > div > p {
+    color: red;
+    margin: 0px;
+}
+.saling-club-Yacht-text > div > button {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(244 244 245);
+    width: 110px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+}
+.saling-club-Yacht-text > div > button:hover {
+    background-color: rgb(223, 223, 223);
+    cursor: pointer;
+}
+.saling-club-Yacht-text > div > button > h5 {
+    margin: 0px;
+}
+.saling-club-Yacht-text > p {
+    margin: 0px;
+}
+.saling-club-Yacht-text > h2 {
+    margin-top: 0px;
+}
+.saling-club-Yacht-text {
+    width: 80%;
+}
+
+/* sport-ananuri-body */
+.sport-ananuri-body {
+    margin: 0px;
+    background-color: var(--background-color);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.ananuri-container > div {
+    margin-top: 20px;
+}
+.ananuri-container > div > h4 {
+    margin-bottom: 0px;
+}
+.ananuri-container > div > ul {
+    margin-top: 0px;
+}
+.ananuri-container > div > div {
+    margin-top: 20px;
+}
+.ananuri-container > div > div > p {
+    margin: 0px;
+}
+.ananuri-container > div > div > button {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(244 244 245);
+    width: 110px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+}
+.ananuri-container > div > p {
+    color: black;
+}
+.ananuri-container > div > div > button:hover {
+    background-color: rgb(223, 223, 223);
+    cursor: pointer;
+}
+.ananuri-img {
+    width: 100%;
+    height: 400px;
+    background-image: url(sport-imgs/adventure\ begins\ here.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.saling-club-kids-img {
+    width: 100%;
+    height: 400px;
+    background-image: url(sport-imgs//a04e7541-e051-4906-aa24-6602117cf69f.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.sports-text {
+    cursor: pointer;
+}
+
+/* calendar section */
+.head {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+.calendarBoxx {
+    display: flex;
+    align-items: center;
+    background-color: rgb(244 244 244);
+    padding: 8px 15px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgb(0,0,0,0.15);
+    max-width: 66%;
+    height: 60px;
+    position: relative;
+    margin-bottom: 40px;
+}
+.dropdown {
+    position: relative;
+}
+.calendarBtn {
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    height: 38px;
+    width: 38px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.dropdownCal {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgb(0,0,0,0.15);
+    padding: 20px;
+    display: none;
+    z-index: 100;
+    width: 600px;
+}
+.dropdownCal.show {
+    display: block;
+}
+.monthsCont {
+    display: flex;
+    gap: 30px;
+}
+.monthBox {
+    flex: 1;
+}
+.monthTitle {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+    color: rgb(39 42 55);
+}
+.weekdays, .daysGrid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    font-size: 12px;
+}
+.weekdays {
+    color: rgb(39 42 55);
+    margin-bottom: 10px;
+}
+.daysGrid div {
+    padding: 8px 0;
+    color: rgb(39 42 55);
+    cursor: pointer;
+    border-radius: 6px;
+}
+.daysGrid div:hover:not(.empty) {
+    background: #f0f2f5;
+}
+.daysGrid .empty {
+    cursor: default;
+}
+.horizScroll {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    padding-left: 15px;
+    flex: 1;
+    scroll-behavior: smooth;
+    background-color: rgb(244 244 244);
+    scrollbar-width: none;
+}
+.scrollItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.5s;
+}
+.scrollItem .dayName {
+    font-size: 10px;
+    color: rgb(156, 156, 156);
+    margin-bottom: 2px;
+}
+.scrollItem .dayNum {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(39 42 55);
+}
+.scrollItem.active {
+    background-color: #1a2b42;
+}
+.scrollItem.active .dayName,
+.scrollItem.active .dayNum {
+    color: white;
+}
+.scrollItem.weekend .dayName,
+.scrollItem.weekend .dayNum {
+    color: red;
+}
+.scrollItem.active.weekend .dayName,
+.scrollItem.active.weekend .dayNum {
+    color: white;
+}
+.newDrop {
+    position: relative;
+    display: inline-block;
+    margin-top: 15px;
+    font-family: inherit;
+    user-select: none;
+}
+.dropdownTrig {
+    background-color: #f0f2f5;
+    border: 1px solid #d5d7db;
+    border-radius: 20px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-size: 13px;
+    color: #1c1e21;
+}
+.dropMenu {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border: 1px solid #d5d7db;
+    width: 180px;
+    display: none;
+    z-index: 10;
+    overflow: hidden;
+}
+.dropMenu.show {
+    display: block;
+}
+.dropdownItem {
+    padding: 10px 15px;
+    font-size: 13px;
+    color: #1c1e21;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+.dropdownItem:hover {
+    background-color: #b9babc;
+}
+
+/* terms section */
+.terms-container {
+    background-color: rgb(30 33 64 / 70%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease;
+    z-index: 9999;
+}
+.terms-container.active {
+    opacity: 1;
+    visibility: visible;
+}
+.terms {
+    width: 25%;
+    height: 38vh;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    transform: translateY(100%);
+    transition: transform 0.5s ease-out;
+}
+.terms-container.active .terms {
+    transform: translateY(0);
+}
+.p-container {
+    color: red;
+}
+.p-container > p {
+    margin: 0px;
+    font-size: 12px;
+}
+.terms-Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+.terms-Header > button {
+    position: absolute;
+    right: 0px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+}
+.terms-Header > h4 {
+    margin-top: 0px;
+}
+.termsBtn-Div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.termsBtn-Div > button {
+    padding: 15px 30px;
+    border: none;
+    background-color: #007aff;
+    color: white;
+}
+.termsBtn-Div > button:hover {
+    background-color: #294264;
+    cursor: pointer;
+}
+
+/* ticket type popup */
+
+
+.saling-club-ticket-mobile {
+    display: none;
+}
+body {
+    padding: 30px 0px 30px 0px;
+}
+.ticets-salary-phone {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 55%;
+    bottom: 0px;
+    display: none;
+}
+.ticets-salary-phone > div > h4 {
+    font-size: 13px;
+    margin: 20px 0px 0px 0px;
+    font-weight: 300;
+}
+.ticets-salary-phone > div > h3 {
+    font-size: 14px;
+    margin: 1px 0px 20px 0px;
+}
+.ticets-salary-phone > button {
+    padding: 15px 50px;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #007aff;
+    color: white;
+}
+.ticets-salary-phone > button:hover {
+    background-color: #1a2b42;
+}
+.salingTicketDiv{
+    border-bottom: 2px solid black;
+    padding: 0px 0px 20px 0px;
+}
+.salingTicketDiv > a{
+    width: 100%;
+    top: 55%;
+    left: 41%;
+}
+.hiddenDiv{
+    display: none;
+}
+.your-ticets{
+        display: none;
+}
+.Sailing-Club{
+    width: 80%;
+}
+.saling-club-container{
+    padding: 40px 40px 40px 40px;
+}
+
+
+
+/* snow-container */
+.snow-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 30px;
+    
+}
+.snow-container > img{
+    width: 55%;
+    height: 60vh;
+    border-radius: 25px;
+    
+  
+}
+.nsonw-terminal{
+    width: 20%;
+    height: 60vh;
+    padding: 0px 30px 0 30px;
+    background-color: white;
+    border-radius: 25px;
+    position: relative;
+}
+.snow-traning-club> h2{
+    margin: 0px 0px 30px 0px;
+}
+.nsonw-terminal > h3{
+    width: 200px;
+   font-size: 20px;
+}
+.nsonw-terminal > h5{
+    margin-bottom: 10px;
+}
+.nsonw-terminal > p{
+    margin: 0px 0px 24px 0px
+}
+.nsonw-terminal > a{
+    position: absolute;
+    bottom: 130px;
+    right: 30px;
+    color: black;
+}
+.ski-traning{
+    border: none;
+    height: 110px;
+    align-items: start;
+}
+.ski-text {
+    max-height: 180px;
+    overflow: hidden;
+    transition: max-height 0.6s ease-in-out;
+    position: relative; 
+}
+.ski-text::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    pointer-events: none; 
+    transition: opacity 0.3s;
+}
+.snow-traning-container{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.snow-traning-club{
+    width: 77%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 25px;
+}
+.training-ticets > div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+
+}
+.training-ticets > hr{
+  margin: 50px 0px;
+}
+.training-ticets div > a {
+    text-decoration: none;
+}
+.training-ticets div > a > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 7px 10px;
+    border: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.training-ticets div > a > button > img{
+   width: 15px;
+}
+
+.training-ticets > div > img{
+    width: 250px;
+    border-radius: 20px;
+}
+.training-ticets > div > div > button{
+    background: none;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 10px;
+    
+}
+.training-ticets > div > div > h3{
+    margin: 0 0 10px 0;
+}
+.training-ticets > div > div > h4{
+    margin: 0 0 5px 0;
+    font-size: 14px;
+}
+.training-ticets > div > div > p{
+    margin: 0 0 5px 0;
+    font-size: 14px;
+}
+.training-ticets > div  > button{
+    width: 200px;
+    height: 50px;
+    background: #007aff;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.training-ticets > div > button:active{
+    scale: 1.02;
+}
+.Description-container{
+    width: 100%;
+    border-top: 1px dashed rgba(0, 0, 0, 0.418);
+    margin-top: 60px;
+}
+.snow{
+    padding-top: 50px;
+}
+.mapsnow{
+    margin-top: 30px;
+    padding: 0px;
+}
+.blueText{
+    color: blue;
+    text-decoration: none;
+}
+.redText{
+    margin-top: 0px;
+    color: red;
+}
+.hidden-item-pro{
+    display: none;
+}
+.hiddenIpad{
+    display: none;
+}
+.hidden-item-pc{
+    display: none;
+}
+.hidden-item-of-pc{
+        display: none;
+}
+
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    .clubs-container {
+        width: 100%;
+        grid-template-rows: repeat(6, 17vh);
+        grid-template-columns: repeat(3, 30%);
+    }
+    .snow-container{
+        width: 100%;
+    }
+    .snow-container > img{
+        width: 56%;
+        height: 21vh;
+    }
+    .training-ticets > div > a > button{
+         width: 150px;
+         padding: 10px 10px 10px 10px;
+         font-size: 9px;
+
+    }
+   
+    .training-ticets-text {
+        width: 120px;
+    }
+    .training-ticets-text > p{
+       width: 70px;
+       margin-top: 0px;
+    }
+     .training-ticets-text > h3{
+        font-size: 15px;
+        margin-bottom: 0px;
+       
+     }
+     .training-ticets > div > img{
+        width: 200px;
+     }
+     .training-ticets > div > div > button{
+        font-size: 12px;
+        padding: 0px;
+     }
+      .training-ticets > div{
+        gap: 20px;
+      }
+     .training-ticets > div > div > p{
+        margin-top: 0px;
+     }
+      
+      .training-ticets > div > div > h3{
+        margin-bottom: 0px;
+      }
+    .hidden-texts-ipad{
+        display: none;
+    }
+    .hidden-texts-pc{
+        display: inline;
+    }
+    .training-ticets > div > button{
+      justify-content: center;
+      gap: 20px;
+    }
+    
+    
+    .nsonw-terminal{
+        width: 25%;
+        height: 21vh;
+    }
+    .skiP-none-Mobile{
+        display: none;
+    }
+    .ski-traning{
+    border: none;
+    height: 50px;
+    align-items: start;
+    }
+    .snow-traning-club{
+     width: 80%;
+    }
+    .ski-text{
+        display: none;
+    }
+    .ski-text-mobile {
+    max-height: 180px;
+    overflow: hidden;
+    transition: max-height 0.6s ease-in-out;
+    position: relative; 
+}
+ .ski-text-mobile::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    pointer-events: none; 
+    transition: opacity 0.3s;
+}
+    .calendarBox {
+        max-width: 74%;
+    }
+    .detailsDiv {
+        grid-template-columns: 95%;
+    }
+    .moreText {
+        width: 94%;
+    }
+    .parp > .moreBtn {
+        left: 70%;
+    }
+    .btnTxtt {
+        display: none;
+    }
+    .readMore > button {
+        left: 40%;
+        font-size: 20px;
+    }
+    .Sailing-Club {
+        width: 90%;
+    }
+    .Sailing-Club-Laser {
+        width: 55%;
+        position: relative;
+    }
+    .saling-club-Yacht-text {
+        width: 55%;
+    }
+    .Sailing-Club-Laser > div > button {
+        position: absolute;
+        right: 10%;
+        width: 40px;
+        margin-left: 10px;
+    }
+    .Sailing-Club-Laser > div > button > h5 {
+        display: none;
+    }
+
+     .terms-container{
+        align-items: center;
+     }
+    .terms-container >.terms{
+        width: 40%;
+        height: 23vh;
+        justify-content: end;
+        
+    }
+   
+    .terms > div > p{
+        font-size: 15px;
+    }
+    .calendar-head{
+        width: 50%;
+    }
+    .sports-text > a{
+        font-size: 12px;
+    }
+     .snow-traning-club{
+        width: 90%;
+    }
+    .snow-container > img{
+       width: 61%;
+    }
+    .training-ticets > div{
+        gap: 50px;
+    }
+    .hidden-item-pro{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 821px) {
+    .hidden-item-pro{
+        display: block;
+        width: 100%;
+        height: 400px;
+        background-image: url(sport-imgs/snowTerminal.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+         border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+    }
+    .snow-club-section{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .calendar-head{
+        width: 60%;
+    }
+    .clubs-container {
+        width: 100%;
+        grid-template-rows: repeat(6, 17vh);
+        grid-template-columns: repeat(3, 30%);
+    }
+    .calendarBox {
+        max-width: 70%;
+    }
+    .detailsDiv {
+        grid-template-columns: 95%;
+    }
+    .moreText {
+        width: 90%;
+    }
+    .parp > .moreBtn {
+        left: 70%;
+    }
+    .btnTxtt {
+        display: none;
+    }
+    .readMore > button {
+        left: 40%;
+        font-size: 20px;
+    }
+    .saling-club-ticket {
+        display: none;
+    }
+    .saling-club-container {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding: 10px;
+    }
+    .Sailing-Club-Laser {
+        width: 100%;
+        position: relative;
+    }
+    .Sailing-Club {
+        width: 100%;
+    }
+    
+    .saling-club-ticket-mobile {
+        width: 100%;
+        height: 6vh;
+        margin-bottom: 10px;
+        position: relative;
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+        align-items: end;
+    }
+    .saling-club-ticket-mobile > button:hover {
+        background-color: rgba(0, 82, 182, 0.979);
+        cursor: pointer;
+    }
+    .saling-club-ticket-mobile > div {
+        display: flex;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    .saling-club-ticket-mobile > h2 {
+        font-size: 18px;
+        position: absolute;
+        left: 5px;
+        top: -10px;
+    }
+    .saling-club-ticket-mobile > div > h4 {
+        margin: 0 0 10px 0;
+    }
+    .saling-club-ticket-mobile > hr {
+       width: 100%;
+       position: absolute;
+       bottom: -15px;
+    }
+    .saling-club-ticket-mobile > div > div {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(140, 190, 255);
+        margin: 0px 10px 0px 0px;
+    }
+    .saling-club-ticket-mobile > div > a > h4 {
+        margin: 0px;
+        text-decoration: none;
+        color: black;
+    }
+    .saling-club-ticket-mobile > div > a {
+        text-decoration: none;
+    }
+    .saling-club-ticket-mobile > div > div > a > img {
+       width: 20px;
+    }
+    .map-container {
+        padding: 0px 10px 20px 10px;
+    }
+    .Sailing-Club-Laser > div > button {
+        left: 45%;
+        bottom: 1px;
+        position: absolute;
+        width: 40px;
+    }
+    .saling-club-Yacht-text {
+        position: relative;
+        width: 100%;
+    }
+    .saling-club-Yacht-text > div > button {
+        left: 45%;
+        bottom: 1px;
+        position: absolute;
+        width: 40px;
+    }
+    .saling-club-Yacht-text > div > button > h5 {
+        display: none;
+    }
+    .Sailing-Club-Laser > div > button > h5 {
+        display: none;
+    }
+    .saling-club-img {
+        width: 100%;
+        height: 300px;
+    }
+    .ticets-salary-phone, .tickets-salary-phone {
+        display: flex !important;
+    }
+    .terms-container{
+        align-items: end;
+     }
+    .terms-container >.terms{
+        width: 100%;
+        height: 23vh;
+       
+        
+    }
+    .termsBtn-Div{
+        align-items: start;
+    }
+    .termsBtn-Div > button{
+         padding: 15px 45%;
+    }
+    .terms > div > p{
+        font-size: 15px;
+    }
+    .main-content-wrapper{
+      flex-direction: column;
+    }
+    .salingAndByDiv > .salingTicketDiv{
+        display: none;
+    }
+    .salingAndByDiv{
+        width: 100%;
+        height: 7vh;
+    }
+    .salingAndByDiv > .byTicketDiv{
+         height: 10vh;
+         align-items: start;
+         justify-content: center;
+    }
+    .salingAndByDiv > .byTicketDiv > button{
+        width: 75%;
+    }
+    .your-ticets{
+        width: 90%;
+        height: 60vh;
+        margin-top: 10px;
+    }
+    .hidden-item{
+        display: none;
+    }
+    .snow-traning-club{
+        padding-top: 0px;
+    }
+    .snow-traning-container{
+        width: 100%;
+        flex-direction: column;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        align-items: center;
+    }
+    .snow-traning-container > img{
+        width: 100%;
+    }  
+    .snow-traning-club{
+        border-radius: 0px;
+        width: 100%;
+        padding: 0px;
+    }
+    .snow-training-club-mobile{
+        padding: 20px;
+    }
+    .training-ticets > div > button{
+        display: none;
+    }
+    .training-ticets > div > a{
+        display: none;
+    }
+    .training-ticets > div {
+        justify-content: start;
+        align-items: start;
+    }
+    .training-ticets > hr{
+        margin: 10px;
+        color: white;
+        border: none;
+    }
+    .hidden-texts-ipad{
+        display: block;
+    }
+    .training-ticets-text{
+        width: 100%;
+    }
+    .training-ticets-text > p{
+        width: 100%;
+        display: none;
+    }
+    .training-ticets-text > h4{
+        display: none;
+    }
+    .training-ticets-text > button{
+        display: none;
+    }
+    .training-ticets-text > ul{
+        padding: 0px 0px 0px 20px;
+    }
+     .snow-training-club-mobile > h2{
+        margin: 0px;
+    }
+    .snow-training-club-mobile > p{
+        margin-top: 5px;
+        color: black;
+    }
+    .Description-container{
+        flex-direction: column;
+    }
+     .training-ticets > div > img{
+        width: 100px;
+        border-radius: 10px;
+    }
+    .hidden-item-for-ipad{
+        display: none;
+    }
+    .hiddenIpad{
+        display: block;
+    }
+} 
+
+
+@media (max-width: 770px) {
+    
+    .calendar-head{
+        width: 65%;
+    }
+    .clubs-container {
+        width: 100%;
+        grid-template-rows: repeat(6, 17vh);
+        grid-template-columns: repeat(3, 30%);
+    }
+    .calendarBox {
+        max-width: 70%;
+    }
+    .detailsDiv {
+        grid-template-columns: 95%;
+    }
+    .moreText {
+        width: 90%;
+    }
+    .parp > .moreBtn {
+        left: 70%;
+    }
+    .btnTxtt {
+        display: none;
+    }
+    .readMore > button {
+        left: 40%;
+        font-size: 20px;
+    }
+    .saling-club-ticket-mobile {
+       height: 8vh;
+    }
+    .ticets-salary-phone, .tickets-salary-phone {
+        display: flex !important;
+    }
+    .terms-container >.terms{
+        width: 100%;
+        height: 26vh;    
+    }
+     .training-ticets-text> img{
+        width: 130px;
+        border-radius: 10px;
+    }
+    .training-ticets > div > img{
+        width: 170px;
+    }
+    .training-ticets > div > ul{
+        margin: 0px;
+        padding: 0px;
+    }
+   
+}
+
+
+@media (max-width: 430px) {
+    .hidden-item-pc{
+        display: block;
+    }
+    .hidden-item-pro{
+     width: 100%;
+     height: 200px;
+     
+    }
+    .hidden-item-of-pc{
+        display: block;
+    }
+    .clubs-container {
+        width: 100%;
+        grid-template-rows: repeat(1, 17vh);
+        grid-template-columns: repeat(1, 30%);
+    }
+    .calendar-head{
+        width: 81%;
+    }
+    .calendar-head > h2{
+        font-size: 17px;
+
+    }
+    .head {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+    
+    .newDrop {
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    .calendarBox {
+        max-width: 87%;
+        margin: 0px 0px 0px 0px;
+    }
+    .clubs-container {
+        width: 100%;
+        grid-template-rows: 32vh;
+        grid-template-columns: 90%;
+    }
+    .ticets-salary-phone, .tickets-salary-phone {
+        display: flex !important;
+        justify-content: center;
+        gap: 20%;
+    }
+    .saling-club-img {
+        height: 200px;
+    }
+    .saling-club-Yacht-img {
+        height: 200px;
+    }
+    .saling-club-kids-img{
+        height: 200px;
+    }
+    .terms-container >.terms{
+        width: 100%;
+        height: 32vh;
+       
+        
+    }
+    .salingAndByDiv{
+        height: 10vh;
+    }
+    .byTicketDiv{
+        
+        margin-top: 0px;
+    }
+    
+    .ticketDiv > p{
+        display: none;
+    }
+    .byTicketDiv > button{
+       width: 50%;
+      
+    }
+    .trial-lesson{
+        width: 75%;
+         position: relative;
+    }
+    .trial-lesson > p{
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    
+    .trial-btns-container > p{
+        position: absolute;
+        left: 20px;
+        top: 35px;
+        font-size: 14px;
+    }
+    .snow-training-club-mobile > h2{
+        font-size: 15px;
+    }
+    .snow-training-club-mobile > p{
+        font-size: 15px;
+        margin-top: 0px;
+    }
+    .training-ticets > div {
+        gap: 10px;
+    }
+    .training-ticets-text> img{
+        width: 115px;
+        border-radius: 10px;
+    }
+     .training-ticets-text > div > ul{
+        margin: 0;
+     }
+}
+
+@media (max-width: 391px) {
+    
+    .head {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+    .newDrop {
+        width: 95%;
+        margin-bottom: 10px;
+    }
+    .calendarBox {
+        max-width: 87%;
+        margin: 0px 0px 0px 0px;
+    }
+    .clubs-container {
+        width: 100%;
+        grid-template-rows: 35vh;
+        grid-template-columns: 90%;
+    }
+    .saling-club-container {
+        display: flex;
+        justify-content: center;
+        gap: 0px;
+        padding: 40px 30px 30px 30px;
+    }
+    .ticets-salary-phone, .tickets-salary-phone {
+        display: flex !important;
+        justify-content: center;
+        gap: 11%;
+       
+    }
+    .tickets-salary-phone > button{
+        padding: 10px 0px;
+    }
+    .saling-club-container{
+        padding: 0px;
+    }
+    .terms-container >.terms{
+        width: 100%;
+        height: 39vh;
+       
+        
+    }
+    .saling-club-ticket-mobile{
+        height: 10vh;
+    
+    }
+    .calendar-head{
+        width: 90%;
+    }
+    
+}
+
+@media (max-width: 375px){
+    .terms-container >.terms{
+        width: 100%;
+        height: 49vh; 
+    }
+}
+
+
+
+
+.by-ticets-container{
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    z-index: 999;
+}
+.by-ticets-container::before{
+     width: 100%;
+    height: 10vh;
+    background-color: #2942648c;
+    content: " ";
+    position: absolute;
+    z-index: 0;
+    top: -11%;
+}
+.by-ticets-container.active-byTicets{
+    display: flex;
+    animation: 0.5s byTicet forwards;
+}
+@keyframes byTicet{
+    from{
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+.saling-cloub-ticets{
+    width: 65%;
+    padding: 10px 0px 0px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(244 244 244);
+}
+.saling-cloub-ticets > h2{
+    margin-bottom: 10px;
+}
+.saling-cloub-ticets > p{
+    margin-top: 0;
+}
+.our-products-btn > button{
+    padding: 12px 40px;
+    margin-right: 10px;
+    border: 0;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+.our-products-btn > button:active{
+    scale: 1.02;
+}
+.our-products-btn > .active-Btn{
+    background-color: #201f1f;
+    color: white;
+}
+.products-qrise > div{
+    width: 85%;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+}
+.products-qrise > div:hover{
+    border: 1px solid cadetblue;
+}
+.prices-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.prices-container > button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.prices-container > h3{
+    color: #007aff;
+}
+.prices-container > button:active{
+   scale: 1.02;
+}
+.by-saling-ticets{
+    border-left: 1px solid rgba(0, 0, 0, 0.144);
+    background-color: white;
+}
+.georgian-club{
+    display: flex;
+    height: 25vh;
+    gap: 20px;
+    align-items: center;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.144);
+    padding-left: 20px;
+}
+.georgian-club > img{
+    width: 150px;
+    border-radius: 15px;
+}
+.georgian-club > div{
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.georgian-club > div > h3{
+  margin-bottom: 10px;
+}
+.your-products{
+    width: 100%;
+    height: 45vh;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.144) ;
+    padding: 20px 20px 20px 20px;
+    overflow-y: scroll;
+}
+.byBtn{
+    width: 95%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+}
+.byBtn > button{
+    width: 90%;
+    height: 50px;
+    background-color:#007aff;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+.byBtn > button:active{
+    scale: 1.01;
+}
+.hidde-function{
+    opacity: 0;
+    transform: translate(-100%);
+}
+.georgian-club{
+    position: relative;
+}
+.georgian-club > button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.georgian-club > button:active{
+    scale: 1.02;
+}
+.byBtnDiv > h3{
+   margin-bottom: 0px;
+}
+.byBtnDiv > p{
+    margin-top: 0px;
+}
+.your-products{
+    padding: 30px 30px 10px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.your-products > div{
+    width: 75%;
+    padding: 10px 10px 10px 20px;
+    background-color:#f0f2f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+}
+.your-products > div > h5{
+   font-size: 17px;
+   margin: 0 0 5px 0;
+}
+.your-products > div > p{
+   font-size: 13px;
+   margin: 0 0 0px 0;
+}
+.your-products > div > h4{
+   font-size: 17px;
+   margin: 5px 0 0 0;
+}
+
+/* 📱 აქედან იწყება მობილურის მედია ქუერი */
+@media (max-width: 430px) {
+    .by-ticets-container {
+        flex-direction: column;
+        height: 100vh;
+        top: 0;
+        bottom: 0;
+    }
+    .by-ticets-container::before {
+        display: none;
+    }
+    .saling-cloub-ticets {
+        width: 100%;
+        height: 100vh;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .products-qrise > div {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .by-saling-ticets {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        border-left: none;
+    }
+    .georgian-club {
+        display: none;
+    }
+    .your-products {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        max-height: 100vh;
+        background-color: #ffffff;
+        box-sizing: border-box;
+        transform: translateY(100%);
+        transition: transform 0.4s ease;
+        z-index: 1001;
+        padding: 20px;
+        border-radius: 20px 20px 0 0;
+        box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.15);
+    }
+    .your-products > div {
+        width: 100%;
+        box-sizing: border-box;
+        background-color: #ffffff;
+        border-bottom: 1px solid #eeeeee;
+        border-radius: 0;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0;
+    }
+    .your-products > div > h5 {
+        color: #3162da;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .your-products > div > p {
+        color: #666666;
+        font-size: 13px;
+    }
+    .your-products > div > h4 {
+        font-size: 16px;
+        font-weight: bold;
+        color: #222222;
+        margin: 0;
+    }
+    .byBtn {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 80px;
+        background-color: white;
+        box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
+        z-index: 1002;
+        box-sizing: border-box;
+        padding: 10px 20px;
+        justify-content: space-between;
+    }
+    .byBtn > button {
+        width: 60%;
+        order: 2;
+    }
+    .byBtnDiv {
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
