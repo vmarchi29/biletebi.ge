@@ -136,3 +136,5 @@ toggleBtn.addEventListener('click', () => {
   toggleBtn.classList.toggle('expanded');
   btnText.textContent = textBlock.classList.contains('open') ? 'დამალვა' : 'ვრცლად';
 });
+
+

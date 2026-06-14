@@ -3,6 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+.row5 .img2,
+.row6 .img2,
+.row7 .img2,
+.row8 .img2,
+.row9 .img2 {
+    width: 280px !important;
+    height: 160px !important;
+}
+
 body{
     background-color:#0b112c;
     display:flex;
@@ -276,7 +285,7 @@ body{
     padding: 2px;
     border: 3px solid rgb(88, 18, 153);
 }
-.img1{
+.img1,img2{
     width: 280px;
     border-radius: 20px;
     transition: transform 0.5s ease;
@@ -727,7 +736,10 @@ ul li{
         margin: 12px 0;
         max-width: 100%;
     }
- 
+
+    .row5 .card{
+        min-width: 200px;
+    }
     .img2 {
         width: 100%;
         height: auto;
