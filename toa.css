@@ -204,7 +204,39 @@ main.main-container{
 }
 
 @media (max-width: 768px) {
-    .event-right{
-        margin-left: -40px;
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .containerr {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .event-wrapper {
+        flex-direction: column;
+        padding: 0 15px;
+        margin: 20px auto;
+    }
+
+    .event-right {
+        width: 100%;
+        position: static;
+    }
+
+    .event-left {
+        padding: 15px;
+    }
+
+    .map-img {
+        height: 200px;
+    }
+
+    .address-section {
+        width: 100%;
+        margin-left: 0;
+        padding: 0 15px 20px;
     }
 }
