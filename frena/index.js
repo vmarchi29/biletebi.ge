@@ -1,4 +1,5 @@
 
+
 const trigger1 = document.getElementById("fly_dropdownTrigger1");
 const menu1 = document.getElementById("fly_dropMenu1");
 const seltext1 = document.querySelector(".fly_selText1");
@@ -303,6 +304,52 @@ searchBtn.addEventListener("click", () => {
     localStorage.setItem("date", date);
     window.location.href = "/tickets/tkt.html"; 
 });
+
+
+
+
+const mobpics = document.querySelectorAll(".fly_mobscrollimg");
+const mobgoprevv = document.querySelector(".mobprev");
+const mobgonextt = document.querySelector(".mobnext");
+
+let countmob = 0;
+
+mobpics.forEach((img, index) => {
+    img.style.left = `${index * 100}%`;
+});
+
+const mobslideimgs = () => {
+    mobpics.forEach((img) => {
+        img.style.transform = `translateX(-${countmob * 100}%)`;
+    });
+};
+
+const mobgoprev = () => {
+    countmob--;
+
+    if(countmob < 0){
+        countmob = mobpics.length - 1;
+    }
+
+    mobslideimgs();
+};
+
+const mobgonext = () => {
+    countmob++;
+
+    if(countmob >= mobpics.length){
+        countmob = 0;
+    }
+
+    mobslideimgs();
+};
+
+mobgoprevv.addEventListener("click", mobgoprev);
+mobgonextt.addEventListener("click", mobgonext);
+
+mobslideimgs();
+
+
 
 
 
