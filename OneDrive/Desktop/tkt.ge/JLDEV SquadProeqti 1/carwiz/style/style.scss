@@ -1,0 +1,281 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body {
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifs;
+background-image: linear-gradient(0deg, rgb(88, 31, 128) 31.41%, rgb(152, 52, 222) 100%);
+padding-top: 169px;
+    &::-webkit-scrollbar {
+    width: 8px;
+    }
+    &::-webkit-scrollbar-thumb {
+    background-color: rgb(158, 158, 158);
+    width: 100%;
+    border-radius: 10px;
+    }
+    &::-webkit-scrollbar-track {
+    background-color: rgb(228, 228, 228);
+    }
+}
+
+
+.centerdiscar {
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+    .carwizplatform {
+    width: 75%;
+    height: 1400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    transition: 0.1s;
+            &.btnvrclad {
+            height: 1450px;
+            }
+        .carwizphoto {
+        background-image: url(./../images/carwizbanner.png);
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        }
+
+        .carwizcontent {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: start;
+        padding: 30px 45px;
+            .c1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+                .c1tittle {
+                font-size: 20px;
+                margin-bottom: 10px;
+                }
+
+                .c1list {
+                list-style-type: none;
+                    li {
+                    font-size: 14px;
+                    font-weight: 400;
+                    }
+                }
+
+                .daxgaxbtndiv {
+                width: 350px;
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                transition: 0.1s;
+                box-shadow: 0px -19px 17px 15px rgb(255, 255, 255);
+                    &.btnvrclad {
+                    margin-bottom: 35px;
+                    transform: translateY(35px);
+                    }
+                    .daxgaxbtn {
+                    width: 120px;
+                    user-select: none;
+                    outline: none;
+                    height: 40px;
+                    border: none;
+                    background-color: rgb(240, 240, 240);
+                    border-radius: 55px;
+                    font-size: 16px;
+                    cursor: pointer;
+                        &:hover {
+                        background-color: rgb(224, 224, 224);
+                        }
+                    }
+                }
+            }
+
+            .c2 {
+            width: 450px;
+            height: 115px;
+            border-radius: 18px;
+            border: 1px solid rgb(224, 224, 224);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+                .javshan {
+                width: 370px;
+                height: 55px;
+                background-color: rgb(27, 127, 241);
+                border-radius: 10px;
+                border: none;
+                color: white;
+                cursor: pointer;
+                transition: 0.05s;
+                font-size: 18px;
+                outline: none;
+                user-select: none;
+                    &:hover {
+                    background-color: rgb(40, 85, 209);
+                    }
+                }
+            }
+        }
+
+        .mapa {
+        width: 100%;
+        height: 500px;
+        padding: 30px 45px;
+        }
+    }
+}
+
+.reklamaturagac {
+width: 100%;
+height: 250px;
+display: flex;
+padding-top: 50px;
+justify-content: center;
+align-items: start;
+}
+
+
+
+@media (max-width: 426px) {
+    body {
+    padding-top: 170px;
+    }
+
+    .centerdiscar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        .carwizplatform {
+        width: 100%;
+        height: 1400px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 25px;
+        transition: 0.1s;
+                &.btnvrclad {
+                height: 1450px;
+                }
+            .carwizphoto {
+            background-image: url(./../images/carwizbanner2.png);
+            width: 100%;
+            height: 222px;
+            background-size: cover;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            }
+
+            .carwizcontent {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            align-items: start;
+            padding: 30px 45px;
+                .c1 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: start;
+                    .c1tittle {
+                    font-size: 20px;
+                    margin-bottom: 10px;
+                    }
+
+                    .c1list {
+                    list-style-type: none;
+                        li {
+                        font-size: 14px;
+                        font-weight: 400;
+                        }
+                    }
+
+                    .daxgaxbtndiv {
+                    width: 100%;
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    transition: 0.1s;
+                    box-shadow: 0px -19px 17px 15px rgb(255, 255, 255);
+                        &.btnvrclad {
+                        margin-bottom: 35px;
+                        transform: translateY(35px);
+                        }
+                        .daxgaxbtn {
+                        width: 120px;
+                        user-select: none;
+                        outline: none;
+                        height: 40px;
+                        border: none;
+                        background-color: rgb(240, 240, 240);
+                        border-radius: 55px;
+                        font-size: 16px;
+                        cursor: pointer;
+                            &:hover {
+                            background-color: rgb(224, 224, 224);
+                            }
+                        }
+                    }
+                }
+
+                .c2 {
+                width: 100%;
+                height: 85px;
+                border-radius: 0px;
+                background-color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: fixed;
+                bottom: 0px;
+                left: 0px;
+                    .javshan {
+                    width: 93%;
+                    height: 55px;
+                    background-color: rgb(27, 127, 241);
+                    border-radius: 10px;
+                    border: none;
+                    color: white;
+                    cursor: pointer;
+                    transition: 0.05s;
+                    font-size: 18px;
+                    outline: none;
+                    user-select: none;
+                        &:hover {
+                        background-color: rgb(40, 85, 209);
+                        }
+                    }
+                }
+            }
+
+            .mapa {
+            width: 100%;
+            height: 500px;
+            padding: 30px 45px;
+            }
+        }
+    }
+    .reklamaturagac {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: start;
+        img {
+        width: 170px;
+        }
+    }
+}

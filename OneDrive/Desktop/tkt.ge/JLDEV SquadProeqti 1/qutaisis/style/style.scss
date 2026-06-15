@@ -1,0 +1,523 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifs;
+padding-top: 200px;
+    &::-webkit-scrollbar {
+    width: 8px;
+    }
+    &::-webkit-scrollbar-thumb {
+    background-color: rgb(158, 158, 158);
+    width: 100%;
+    border-radius: 10px;
+    }
+    &::-webkit-scrollbar-track {
+    background-color: rgb(228, 228, 228);
+    }
+}
+
+
+
+.tbilisbuswrapper {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 25px;
+    .tbilisibusheader {
+    background-image: linear-gradient(to bottom, rgb(68, 59, 148), rgb(29, 15, 66));
+    width: 100%;
+    width: 76%;
+    height: 350px;
+    background-size: cover;
+    margin-bottom: 40px;
+    border-radius: 15px;
+        .headerstyletbilisibus {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 125px 145px;
+            img {
+            width: 110px;
+            }
+            h1 {
+            width: 70%;
+            font-size: 35px;
+            color: white;
+            }
+        }
+    }
+}
+
+.busticketinfobannerwrapper {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px 70px;
+margin-bottom: 10px;
+    .busticketinfobanner {
+    background-image: url(./../image/busimageticketticket.png);
+    width: 100%;
+    max-width: 1250px;
+    aspect-ratio: 1250 / 330;
+    background-size: cover;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    }
+}
+
+.infoatthebottombusticktwrapper {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 10px;
+    .infoatthebottombustickt {
+    width: 100%;
+    max-width: 1250px;
+    background-size: cover;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+        .infocard {
+        height: 290px;
+        width: 380px;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #F4F4F5;
+        padding: 15px;
+            img {
+            margin-bottom: 25px;
+            }
+            h1 {
+            font-size: 17px;
+            text-align: center;
+            margin-bottom: 13px;
+            }
+            h2 {
+            font-size: 14px;
+            text-align: center;
+            font-weight: 350;
+            margin-bottom: 15px;
+            }
+            a {
+            text-decoration: none;
+            color: rgb(0, 110, 255);
+            }
+        }
+    }
+}
+
+
+.faqdiv {
+width: 100%;
+height: auto;
+margin-bottom: 95px;
+display: flex;
+flex-direction: column;
+padding: 85px 0px;
+justify-content: center;
+align-items: center;
+    .faqsmessage {
+    width: 80px;
+    padding: 7px 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #E10088;
+    margin-bottom: 15px;
+        img {
+        margin-right: 5px;
+        }
+        h1 {
+        font-size: .80rem;
+        color: white;
+        font-weight: 700;
+        }
+    }
+    .tittlefaqs {
+    font-size: 1.25rem;
+    margin-bottom: 40px;
+    }
+    .faqsrows {
+    display: flex;
+    gap: 17px;
+    justify-content: space-between;
+    align-items: start;
+        .row1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+            .questns {
+            width: 610px;
+            height: 70px;
+            overflow-y: hidden;
+            background-color: rgb(240, 240, 240);
+            border-radius: 13px;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            margin-bottom: 15px;
+            transition: 0.2s;
+            cursor: pointer;
+                &.open {
+                height: auto;
+                }
+                .questiontittle {
+                font-size: 1rem;
+                margin-bottom: 25px;
+                font-weight: 400;
+                user-select: none;
+                }
+                .questiondesc {
+                font-size: .75rem;
+                font-weight: 350;
+                }
+                a {
+                color: rgb(28, 164, 255);
+                }
+            }
+        }
+        .row2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+            .questns {
+            width: 610px;
+            height: 70px;
+            overflow-y: hidden;
+            background-color: rgb(240, 240, 240);
+            border-radius: 13px;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            margin-bottom: 15px;
+            transition: 0.2s;
+            cursor: pointer;
+                &.open {
+                height: auto;
+                }
+                .questiontittle {
+                font-size: 1rem;
+                margin-bottom: 25px;
+                font-weight: 400;
+                user-select: none;
+                }
+                .questiondesc {
+                font-size: .75rem;
+                font-weight: 350;
+                }
+                a {
+                color: rgb(28, 164, 255);
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 426px) {
+    body {
+    padding-top: 170px;
+    }
+
+    .busticketinfobannerwrapper {
+    padding: 0px 10px;
+    margin-bottom: 25px;
+        .busticketinfobanner {
+        background-image: url(./../image/busimageticketticketcubic.png);
+        width: 100%;
+        max-width: 393px;
+        aspect-ratio: 393 / 436;
+        background-size: cover;
+        margin-bottom: 10px;
+        border-radius: 15px;
+        }
+        .textcontentbusticketinfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        max-width: 1250px;
+        padding: 0px 8px;
+            h1 {
+            font-size: 1.25rem;
+            margin-bottom: 15px;
+            }
+            h2 {
+            font-weight: 400;
+            font-size: 1rem;
+            margin-bottom: 30px;
+            line-height: 1.625;
+            }
+
+            ul {
+            padding-left: 25px;
+                li {
+                margin-bottom: 10px;
+                }
+            }
+        }
+    }
+    .tbilisbuswrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        .tbilisibusheader {
+        background-image: linear-gradient(to bottom, rgb(66, 122, 226), rgb(19, 65, 151));
+        width: 100%;
+        height: 480px;
+        background-size: cover;
+        margin-bottom: 0px;
+        border-radius: 25px;
+            .headerstyletbilisibus {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 61px 16px;
+                img {
+                width: 95px;
+                }
+                h1 {
+                margin-top: 10px;
+                width: 77%;
+                font-size: 1.25rem;
+                color: white;
+                }
+            }
+        }
+    }
+    .traintittle {
+    font-size: 1.01rem;
+    margin: 0px;
+    padding-left: 15px;
+    margin-bottom: 35px;
+    width: 300px;
+    }
+    .wrappertraininfo {
+    width: 100%;
+    margin-bottom: 45px;
+        .traininfo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 15px;
+        flex-direction: column;
+            .traininfocard {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border: 1px solid rgb(236, 236, 236);
+            border-radius: 10px;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            align-items: center;
+                img {
+                margin-bottom: 0px;
+                width: 40px;
+                margin-right: 15px;
+                }
+                .traininfoul {
+                list-style-type: none;
+                display: flex;
+                flex-wrap: wrap;
+                    .desc {
+                    text-align: start;
+                    font-size: .75rem;
+                    }
+                    .bolddesc {
+                    text-align: start;
+                    font-weight: 500;
+                    font-size: .75rem;
+                    }
+                }
+            }
+        }
+    }
+    
+    .infoatthebottombusticktwrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+        .infoatthebottombustickt {
+        width: 100%;
+        max-width: 1250px;
+        background-size: cover;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 15px;
+            .infocard {
+            height: auto;
+            width: 90%;
+            border-radius: 25px;
+            display: flex;
+            flex-direction: column;
+            padding-left: 45px;
+            justify-content: center;
+            align-items: center;
+            background-color: #F4F4F5;
+            padding-left: 85px;
+            padding-right: 45px;
+            position: relative;
+            margin-bottom: 10px;
+                img {
+                position: absolute;
+                left: 15px;
+                width: 65px;
+                margin-bottom: 0px;
+                }
+                h1 {
+                font-size: .875rem;
+                text-align: center;
+                margin-bottom: 13px;
+                }
+                h2 {
+                font-size: .75rem;
+                text-align: center;
+                font-weight: 350;
+                margin-bottom: 15px;
+                }
+                a {
+                font-size: .75rem;
+                text-decoration: none;
+                color: rgb(0, 110, 255);
+                }
+            }
+        }
+    }
+
+    
+    .faqdiv {
+    width: 100%;
+    height: auto;
+    margin-bottom: 95px;
+    display: flex;
+    flex-direction: column;
+    padding: 85px 0px;
+    padding-top: 0px;
+    justify-content: center;
+    align-items: center;
+        .faqsmessage {
+        width: 80px;
+        padding: 7px 17px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        background-color: #E10088;
+        margin-bottom: 15px;
+            img {
+            margin-right: 5px;
+            }
+            h1 {
+            font-size: .80rem;
+            color: white;
+            font-weight: 700;
+            }
+        }
+        .tittlefaqs {
+        font-size: .875rem;
+        margin-bottom: 40px;
+        }
+        .faqsrows {
+        display: flex;
+        gap: 17px;
+        justify-content: space-between;
+        align-items: start;
+        flex-direction: column;
+            .row1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+                .questns {
+                width: clamp(200px, 90vw, 500px);
+                height: 55px;
+                overflow-y: hidden;
+                background-color: rgb(240, 240, 240);
+                border-radius: 13px;
+                padding-left: 25px;
+                padding-right: 25px;
+                padding-top: 20px;
+                padding-bottom: 25px;
+                margin-bottom: 15px;
+                transition: 0.2s;
+                cursor: pointer;
+                    &.open {
+                    height: auto;
+                    }
+                    .questiontittle {
+                    font-size: .75rem;
+                    margin-bottom: 25px;
+                    font-weight: 400;
+                    user-select: none;
+                    }
+                    .questiondesc {
+                    font-size: .75rem;
+                    font-weight: 350;
+                    }
+                    a {
+                    color: rgb(28, 164, 255);
+                    }
+                }
+            }
+            .row2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+                .questns {
+                width: clamp(200px, 90vw, 500px);
+                height: 55px;
+                overflow-y: hidden;
+                background-color: rgb(240, 240, 240);
+                border-radius: 13px;
+                padding-left: 25px;
+                padding-right: 25px;
+                padding-top: 20px;
+                padding-bottom: 25px;
+                margin-bottom: 15px;
+                transition: 0.2s;
+                cursor: pointer;
+                    &.open {
+                    height: auto;
+                    }
+                    .questiontittle {
+                    font-size: .75rem;
+                    margin-bottom: 25px;
+                    font-weight: 400;
+                    user-select: none;
+                    }
+                    .questiondesc {
+                    font-size: .75rem;
+                    font-weight: 350;
+                    }
+                    a {
+                    color: rgb(28, 164, 255);
+                    }
+                }
+            }
+        }
+    }
+}

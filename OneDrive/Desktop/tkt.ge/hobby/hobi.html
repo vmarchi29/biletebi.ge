@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./hobi.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/footer/footer.css">
+</head>
+<header>
+    <div class="container">
+        <div class="top-nav">
+            <div class="top-left">
+                <img src="/logo.svg" alt="" class="tkt-logo" onclick="window.location.href='/index.html'">
+            <div class="search-box">
+                <input type="text" placeholder="ძებნა">
+                <img src="/icons8-search-50 (1).png" alt="">
+            </div>
+            </div>
+            <div class="top-right">
+                <div class="language">
+
+
+
+    <div class="lang-box" id="langBox">
+        
+        <span id="selectedLang"><img src="/icons8-globe-50.png" class="globe"> ქართული ▾</span>
+
+        <div class="lang-dropdown" id="langDropdown">
+            <div data-lang="ka"><img src="/icons8-georgia-circular-48.png" alt=""> ქართული</div>
+            <div data-lang="en"><img src="/icons8-united-kingdom-48.png" alt=""> English</div>
+        </div>
+    </div>
+
+</div>
+                <button class="sign-in-btn" onclick="window.location.href='/sign-in.html'"> <img src="/icons8-person-48.png" alt=""> შესვლა</button>
+                <img src="/icons8-finger-print-64 (2).png" alt="" class="finger-print">
+            </div>
+
+        </div>
+        <nav class="categories">
+            <div class="cat-bar">
+    <div class="dropdown">
+        <button class="drop-btn"> <img src="/icons8-menu-24.png" alt="">კატეგორიები ▾</button>
+
+        <div class="drop-menu">
+            <a href="/music_concert/index.html">მუსიკა/კონცერტი</a>
+            <a href="/kino/index.html">კინო</a>
+            <a href="/JLDEV SquadProeqti 1/rkinigza/index.html">რკინიგზა</a>
+            <a href="/JLDEV SquadProeqti 1/index.html">ტრანსპორტი</a>
+            <a href="/New folder (12)/index.html">თეატრი</a>
+            <a href="/opera/index.html">ოპერა</a>
+            <a href="/sport-and-sea-main/sport/sport.html">სპორტი</a>
+            <a href="/sport-and-sea-main/sport/sea.html">ზღვა</a>
+            <a href="/festivali/festivali.html">ფესტივალი</a>
+            <a href="/DACHI F/PROEKTI/intel.html">საბავშვო</a>
+            <a href="/DACHI F/PROEKTI/gadasvla.html">კონფერენცია</a>
+            <a href="/standup.html">სტენდაფი</a>
+            <a href="/turizmi/turizmi.html">ტურიზმი</a>
+            <a href="/hobby/hobi.html">ჰობი</a>
+            <a href="/project-masterclas/oto.html">მასტერკლასი</a>
+            <a href="/project-museum/museum.html">მუზეუმი</a>
+            <a href="/saertashoriso/nini.html">საერთაშორისო</a>
+            <hr>
+            <a href="/frena/index.html" class="cat-bar-flight"><img src="/fly-icon.svg" alt="">ფრენა <img src="./icons8-up-right-24.png" alt=""></a>
+        </div>
+    </div>
+    <button class="arrow left">◀</button>
+    <ul class="categorie">
+    <li><a href="/music_concert/index.html"><img src="/music-concert.svg" alt="">მუსიკა/კონცერტი</a></li>
+    <li><a href="/kino/index.html"><img src="/cinema.svg" alt="">კინო</a></li>
+    <li><a href="/JLDEV SquadProeqti 1/rkinigza/index.html"><img src="/railway.svg" alt="">რკინიგზა</a></li>
+    <li>
+        <div class="transport-new">
+            <div class="transport-new-span">
+                <span class="transport-new-span-text">სიახლე</span>
+            </div>
+            <a href="/JLDEV SquadProeqti 1/index.html"><img src="./transport.svg" alt="" class="transport-new"> ტრანსპორტი</a>
+        </div>
+        
+    </li>
+    <li><a href="/New folder (12)/index.html"><img src="/theatre.svg" alt=""> თეატრი</a></li>
+    <li><a href="/opera/index.html"><img src="/opera.svg" alt=""> ოპერა</a></li>
+    <li><a href="/sport-and-sea-main/sport/sport.html"><img src="/sport.svg" alt=""> სპორტი</a></li>
+    <li><a href="/sport-and-sea-main/sport/sea.html"><img src="/sea.svg" alt=""> ზღვა</a></li>
+    <li><a href="/festivali/festivali.html"><img src="/festival.svg" alt=""> ფესტივალი</a></li>
+    <li><a href="/DACHI F/PROEKTI/intel.html"><img src="/kids.svg" alt=""> საბავშვო</a></li>
+    <li><a href="/DACHI F/PROEKTI/gadasvla.html"><img src="/conferences.svg" alt=""> კონფერენცია</a></li>
+    <li><a href="/standup.html"><img src="/standup.svg" alt=""> სტენდაფი</a></li>
+    <li><a href="/turizmi/turizmi.html"><img src="/turism.svg" alt=""> ტურიზმი</a></li>
+    <li><a href="/hobby/hobi.html"><img src="/hobby.svg" alt=""> ჰობი</a></li>
+    <li><a href="/project-masterclas/oto.html"><img src="/masterclass.svg" alt=""> მასტერკლასი</a></li>
+    <li><a href="/project-museum/museum.html"><img src="/museum.svg" alt=""> მუზეუმი</a></li>
+    <li><a href="/saertashoriso/nini.html"><img src="/international.svg" alt=""> საერთაშორისო</a></li>
+</ul>
+    <button class="arrow right">▶</button>
+    <button class="fly-btn"><a href="/frena/index.html" class="fly-href"><img src="/fly-icon.svg" alt=""><span class="fly-span">ფრენა</span> <img src="./icons8-up-right-24.png" alt=""></a></button>
+
+</div>
+        </nav>
+    </div>
+</header>
+<body class="sport-body">
+
+    <section>
+        <div class="calendar-head">
+            <h2>სპორტული ღონისძიებების ბილეთები</h2>
+        </div>
+        <div class="head">
+              <div class="calendarBoxx">
+                <div class="dropdown">
+                    <button class="calendarBtn" id="calendarBtn">
+                        <span><i class="fa-regular fa-calendar"></i></span>
+                    </button>
+
+                    <div class="dropdownCal" id="dropdownCal">
+                        <div class="monthsCont">
+                            <div class="monthBox">
+                                <div class="monthTitle">მაისი 2026</div>
+                                <div class="weekdays">
+                                    <div>ორშ</div><div>სამშ</div><div>ოთხ</div><div>ხუთ</div><div>პარ</div><div>შაბ</div><div>კვი</div>
+                                </div>
+                                <div class="daysGrid" id="mayGrid"></div>
+                            </div>
+                            <div class="monthBox">
+                                <div class="monthTitle">ივნისი 2026</div>
+                                <div class="weekdays">
+                                    <div>ორშ</div><div>სამშ</div><div>ოთხ</div><div>ხუთ</div><div>პარ</div><div>შაბ</div><div>კვი</div>
+                                </div>
+                                <div class="daysGrid" id="juneGrid"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="horizScroll" id="horizScroll"></div>
+              </div>
+              <div class="newDrop">
+                <div class="dropdownTrig" id="dropdownTrigger">
+                    <span class="sortIcon"><i class="fa-solid fa-align-left"></i></span>
+                    <span class="selText">მოახლოებული</span>
+                    <span class="arrowIcon">></span>
+                </div>
+
+                <div class="dropMenu" id="dropMenu">
+                    <div class="dropdownItem" data-value="upcoming">მოახლოებული</div>
+                    <div class="dropdownItem" data-value="price-asc">ფასი - ზრდადობით</div>
+                    <div class="dropdownItem" data-value="price-desc">ფასი - კლებადობით</div>
+                </div>
+              </div>
+        </div>
+      <div class="sports-container">
+        <div class="clubs-container">
+             <div>
+                <div class="img-container">
+                    <div class=""></div>
+                    <a href="saling-club.html"><img src="./hobi_1.webp" alt="img"></a>   
+                    </div>
+                    <div class="sports-text">
+                       <h4 id="h4">TTE რუმს</h4>
+                       <a href="£">30₾-დან</a>
+                    </div>
+                    <p>TTE რუმს</p>
+             </div>
+             <div>
+                <div class="img-container" >
+                    <a href="Sailing-Club-Yacht.html"><img src="./hobi_2.webp" alt="img"></a>
+                </div>
+                    <div class="sports-text">
+                       <h4 id="h4">Georgian Sailing Club - Laser</h4>
+                       <a href="£">190₾-დან</a>
+                    </div>
+                    <p>Georgian Sailing Club</p>  
+             </div>
+             <div>
+                <div class="img-container academy">
+                    <a href="ananuri-paragliding.html"><img src="./hobi_3.jpg" alt="img"></a>
+                </div>
+                    <div class="sports-text">
+                       <h4 id="h4">Georgian Sailing Club - Laser</h4>
+                       <a href="£">125₾-დან</a>
+                    </div>
+                    <p>Georgian Sailing Club</p>
+                
+             </div>
+             <div>
+                <div class="img-container">
+                    <a href="Kids-saling-Club.html"><img src="./hobi_4.webp" alt="img"></a> 
+                </div>
+                    <div class="sports-text">
+                       <h4 id="h4">ანანური პარაგლაიდინგი </h4>
+                       <a href="£">500₾-დან</a>
+                    </div>
+                    <p>ანანურის ციხე</p>
+               
+             </div>
+             <div>
+                <div class="img-container">
+                    <a href="#"><img src="./hobi_5.webp" alt="img" alt="img"></a>
+                </div>
+                    <div class="sports-text academy">
+                       <h4 id="h4">Goergian Sailing Club - Kids</h4>
+                       <a href="£">170₾-დან</a>
+                    </div>
+                    <p>Georgian Sailing Club</p>
+                
+             </div>
+             <div>
+                <div class="img-container">
+                    <a href="ski-training-bakuriani.html"><img src="./hobi_6.jpg" alt="img"></a>
+                </div>
+                    <div class="sports-text academy">
+                       <h4 id="h4">"ილიას გზა" - ღვინის ტური ისტორიულ "გურამიშვილის...</h4>
+                       <a href="£">25₾-დან</a>
+                    </div>
+                    <p>გურამიშვილის მარანი</p>
+                
+             </div>
+             <div>
+                <div class="img-container">
+                    <a href="£"><img src="./hobi_7.webp" alt="img"></a>
+                </div>
+                    <div class="sports-text academy2">
+                       <h4 id="h4">ჯინო აკვაპარკი</h4>
+                       <a href="£">79₾-დან</a>
+                    </div>
+                   <p>GINO AQUAPARK</p>
+                
+             </div>
+             <div class="event-card" data-date="2026-4-23">
+                <div class="img-container scross">
+                    <a href="£"><img src="./hobi_8.webp" alt="img"></a>
+                </div>
+                    <div class="sports-text">
+                       <h5 id="h4">ხელოვნების ფონდი ანაგი</h5>
+                       <a href="£">10₾-დან</a>
+                    </div>
+                    <p>პარკ ჰოუმ ვაკე</p>
+                
+             </div>
+              <div class="event-card" data-date="2026-4-24">
+                <div class="img-container scross">
+                    <a href="£"><img src="./hobi_9.jpg" alt="georgian"></a>
+                </div>
+                    <div class="sports-text">
+                       <h4 id="h4">სათხილამურო სწავლება <br> ბაკურიანში</h4>
+                       <a href="£">95₾-დან</a>
+                    </div>
+                    <p>Parking, ბაკურიანი</p>
+                
+             </div>
+              <div class="event-card" data-date="2026-4-24">
+                <div class="img-container scross">
+                    <a href="£"><img src="./hobi_10.webp" alt="img"></a>
+                </div>
+                    <div class="sports-text">
+                       <h4 id="h4">საჰაერო ბურთი</h4>
+                       <a href="£">25₾-დან</a>
+                    </div>
+                    <p>რიყის პარკი</p>
+                
+             </div>
+              <div class="event-card" data-date="2026-4-24">
+                <div class="img-container scross">
+                    <a href="£"><img src="./hobi_11.webp" alt="img"></a>
+                </div>
+                    <div class="sports-text">
+                       <h4 id="h4">ჟოზეს სამხატვრო სკოლა</h4>
+                       <a href="£">80₾-დან</a>
+                    </div>
+                    <p>ჟოზეს სამხატვრო სკოლა</p>
+                
+             </div>
+              <div class="event-card" data-date="2026-4-24">
+                <div class="img-container scross">
+                    <a href="£"><img src="./hobi_12.webp" alt="img"></a>
+                </div>
+                    <div class="sports-text">
+                       <h4 id="h4">საფეხბურთო სკოლა ვილლა</h4>
+                       <a href="£">750₾-დან</a>
+                    </div>
+                    <p>თბილისი</p>
+                
+             </div>
+              <div class="event-card" data-date="2026-4-31">
+                <div class="img-container scross">
+                    <a href="£"><img src="./hobi_13.webp" alt="img"></a>
+                </div>
+                    <div class="sports-text">
+                       <h4 id="h4">სკულპტურების პარკი</h4>
+                       <a href="">50₾-დან</a>
+                    </div>
+                    <p>Ria Keburia Foundation</p>
+                
+             </div>
+              <div class="event-card" data-date="2026-4-31">
+                <div class="img-container scross">
+                    <a href="£"><img src="./hobi_14.webp" alt="img"></a>
+                    <div class="scoress-item">
+                        <a href="">13  -  30</a>
+                        <a href="">ივნ   ივნ</a>
+
+                    </div>
+                </div>
+                    <div class="sports-text">
+                       <h4 id="h4">კერამიკის საბავშვო <br> ვორქშოპი</h4>
+                       <a href="">60₾-დან</a>
+                    </div>
+                    <p>ნარი კერამიკის სტუდია</p>
+             </div>
+              <div class="event-card" data-date="2026-5-03">
+                <div class="img-container scross">
+                    <a href="£"><img src="./hobi_15.webp" alt="img"></a>
+                    <div class="scoress-item">
+                        <a href="">13</a>
+                        <a href="">ივნ</a>
+
+                    </div>
+                </div>
+                    <div class="sports-text">
+                       <h4 id="h4">მამბერ 8</h4>
+                       <a href="">10₾-დან</a>
+                    </div>
+                    <p>შაბათი, 20:00 • ოლიმპიური სპორტის ს...</p>
+             </div>
+             <div class="event-card" data-date="2026-5-06">
+                <div class="img-container scross">
+                    <a href="£"><img src="./hobi_16.webp" alt="img"></a>
+                    <div class="scoress-item">
+                        <a href="">14</a>
+                        <a href="">ივნ</a>
+
+                    </div>
+                </div>
+                    <div class="sports-text">
+                       <h4 id="h4">დილის იოგა თბილისი ჰილსის <br> გამწვანებულ ვუდს პარკში</h4>
+                       <a href="">60₾-დან</a>
+                    </div>
+                    <p>კვირა, 10:00 • Tbilisi Hills, Woods Park</p>
+             </div>
+              <!-- aqidan qvemot shesacvleli -->
+             <div class="event-card" data-date="2026-5-07">
+                <div class="img-container scross">
+                    <a href="£"><img src="./hobi_17.webp" alt="img"></a>
+                    <div class="scoress-item">
+                        <a href="">14  -  28</a>
+                        <a href="">ივნ   ივნ</a>
+
+                    </div>
+                </div>
+                    <div class="sports-text">
+                       <h4 id="h4">დროის მანქანა და <br> მეხსიერების მექანიზმები...</h4>
+                       <a href="">70₾-დან</a>
+                    </div>
+                    <p>გაბრიაძის თეატრი</p>
+             </div>
+             <div class="event-card" data-date="2026-5-17">
+                <div class="img-container scross">
+                    <a href="£"><img src="./hobi_18.webp" alt="img"></a>
+                    <div class="scoress-item">
+                        <a href="£">14</a>
+                        <a href="£">ივნ</a>
+                    </div>
+                </div>
+                    <div class="sports-text">
+                       <h4 id="h4">საქართველოს დრიფტის <br> ჩემპიონატის მეორე ეტაპი</h4>
+                       <a href="">20₾-დან</a>
+                    </div>
+                    <p>კვირა, 14:00 • რუსთავის საერთაშორის...</p>
+             </div>
+             <div>
+                <div class="img-container scross">
+                    <a href="£"><img src="./hobi_19.webp" alt="img"></a>
+                    <div class="scoress-item scoress-item2">
+                          <div>
+                        <a href="£">14</a>
+                        <a href="£">ივნ</a>
+                        </div>
+                        <a href="£">-</a>
+                        <div>
+                        <a href="£">28</a>
+                        <a href="£">ივნ</a>
+                        </div>
+                    </div>
+                </div>
+                    <div class="sports-text">
+                       <h4 id="h4">თიხაზე ძერწვის ვორკშოფი</h4>
+                       <a href="">80₾-დან</a>
+                    </div>
+                    <p>ნარი კერამიკის სტუდია</p>
+             </div>
+             <div>
+                <div class="img-container scross">
+                    <a href="£"><img src="./hobi_20.webp" alt="img"></a>
+                    <div class="scoress-item">
+                        <a href="£">14</a>
+                        <a href="£">ივნ</a>
+                    </div>
+                </div>
+                    <div class="sports-text">
+                       <h4 id="h4">შოკოლადის მასტერკლასი</h4>
+                       <a href="">75₾-დან</a>
+                    </div>
+                    <p>კვირა, 17:00 • ცეში</p>
+             </div>
+        </div>
+    </div>
+    </section>
+    <section class="question-section">
+       
+        <div class="FAQs">
+                <div class="butTex">
+                    <button class="faqBtn"><i class="fa-solid fa-comment"></i> FAQs</button>
+                    <h2 class="h2">ხშირად დასმული კითხვები</h2>
+                </div>
+                <div class="detailsDiv">
+                    <details class="faqItem">
+                        <summary>როგორ შევიძინო კონცერტის ბილეთი ონლაინ?</summary>
+                        <div class="faqContent">
+                            <p class="fp">პროცესი მარტივია: აირჩიეთ სასურველი ღონისძიება, მონიშნეთ ადგილი დარბაზის <br>
+                            რუკაზე, შეავსეთ საკონტაქტო ინფორმაცია და გადაიხადეთ. ბილეთი მყისიერად <br>
+                            გამოიგზავნება ელ-ფოსტაზე.
+                            </p>
+                        </div>
+                    </details>
+                    <details class="faqItem">
+                        <summary>ვრცელდება თუ არა ასაკობრივი შეზღუდვა კონცერტებზე?</summary>
+                        <div class="faqContent">
+                            <p class="fp">დამოკიდებულია ღონისძიებასა და ლოკაციაზე. კლუბურ ღონისძიებებზე ხშირად <br>
+                            მოქმედებს 18+ ან 21+ ზღვარი, ხოლო ღია ცის ქვეშ გამართულ კონცერტებზე <br>
+                            შეზღუდვა იშვიათია. დეტალები ყოველთვის ღონისძიების გვერდზეა მითითებული.</p>
+                        </div>
+                    </details>
+                    <details class="faqItem">
+                        <summary>შესაძლებელია თუ არა ბილეთის დაბრუნება ან გადაცვლა?</summary>
+                        <div class="faqContent">
+                            <p class="fp">სტანდარტული წესით, შეძენილი ბილეთის დაბრუნება ან სხვა ღონისძიებაში <br>
+                            გადაცვლა არ ხდება, გარდა იმ შემთხვევებისა, როდესაც ორგანიზატორი წინასწარ <br>
+                            აცხადებს გამონაკლისს ან ღონისძიება უქმდება.</p>
+                        </div>
+                    </details>
+                    <details class="faqItem">
+                        <summary>რა ხდება, თუ კონცერტი გადაიდო ან გაუქმდა?</summary>
+                        <div class="faqContent">
+                            <p class="fp">გაუქმების შემთხვევაში, გადახდილი თანხა მომხმარებელს უბრუნდება იმავე <br>
+                            საბანკო ანაგრიშზე, საიდანაც ბილეთი იყიდა. ხოლო ღონისძიების გადადებისას <br>
+                            ბილეთი ავტომატურად ძალაში რჩება ახალი თარიღისთვის.</p>
+                        </div>
+                    </details>
+                    <details class="faqItem">
+                        <summary>აუცილებელია თუ არა ბილეთის ამობეჭდვა?</summary>
+                        <div class="faqContent">
+                            <p class="fp">არა. კონცერტზე შესასვლელად საკმარისია QR კოდი მობილურის ეკრანიდან.</p>
+                        </div>
+                    </details>
+                    <details class="faqItem">
+                        <summary>რატომ მხვდება რიგის სისტემა ბილეთების ყიდვისას?</summary>
+                        <div class="faqContent">
+                            <p class="fp">პოპულარულ კონცერტებზე, მაღალი მოთხოვნის გამო, სისტემის <br>
+                            სტაბილურობისთვის ირთვება ონლაინ რიგი. ვირტუალურ რიგში თქვენ ხედავთ <br>
+                            თქვენს ნომერს და მოლოდინის დროს. არ დახუროთ ან განაახლოთ გვერდი, რათა <br>
+                            არ დაკარგოთ ადგილი; როდესაც თქვენი რიგი მოვა, სისტემა თავად გადაგიყვანთ <br>
+                            ბილეთების შერჩევის გვერდზე.</p>
+                        </div>
+                    </details>
+                    <details class="faqItem">
+                        <summary>რა არის Early Bird ბილეთები და როგორ დავზოგო თანხა?</summary>
+                        <div class="faqContent">
+                            <p class="fp">Early Bird არის გაყიდვების პირველ ეტაპზე გამოტანილი შეზღუდული რაოდენობის <br>
+                            ბილეთები ყველაზე დაბალ ფასად. ეს კალათა ყველაზე სწრაფად იწურება, რის <br>
+                            შემდეგაც გაყიდვა ავტომატურად გადადის მომდევნო ეტაპზე შედარებით მაღალი <br>
+                            ფასით. რაც უფრო ადრე შეიძენთ ბილეთს, მით მეტს დაზოგავთ.</p>
+                        </div>
+                    </details>
+                </div>
+
+                <div class="readMore">
+                    <div class="moreText" id="textBlockk">
+                        <h3 class="hh3">კონცერტის ბილეთები და მუსიკალური ღონისძიებები საქართველოში</h3>
+                        <div class="bigTxtt">
+                            <p class="parp">საყვარელი არტისტის სცენაზე ხილვა და ცოცხალი მუსიკის მოსმენა ის გამოცდილებაა, რომელიც ყოველდღიური რუტინიდან გვაშორებს. ბოლო წლებში ქვეყანაში <br>
+                            კულტურული და საკლუბო ცხოვრება ბევრად აქტიური გახდა. ლოკალური თუ საერთაშორისო მასშტაბის ღონისძიებების რიცხვი იზრდება, შესაბამისად, სასურველი <br>
+                            კონცერტები საქართველოში მუსიკის მოყვარულთათვის უფრო მრავალფეროვანი და ხელმისაწვდომი ხდება.</p> 
+                            <p class="parp">თუმცა, სასურველ ღონისძიებაზე მოხვედრა ადამიანებისთვის ხშირად სირთულეებთანაა დაკავშირებული - ინფორმაცია სხვადასხვა საიტსა თუ სოციალურ ქსელშია <br>
+                            გაფანტული, სალაროებთან რიგში დგომა დროის კარგვაა, ყველაზე მოთხოვნადი კონცერტის ბილეთები კი ხშირად მაშინ სრულდება, როცა ჯერ კიდევ დაგეგმვის პროცესში <br>
+                            ვართ <span class="blue">.TKT</span> სწორედ ამ გამოცდილების გასამარტივებლად შეიქმნა. ეს არის პლატფორმა, სადაც ერთ სივრცეში სრული სურათით ხედავთ ყველა დაგეგმილ მუსიკალურ <br>
+                            ღონისძიებას, სასურველ ადგილს კი ტელეფონის ეკრანიდან, სულ რამდენიმე წუთში ჯავშნით.</p> 
+                            <h4 class="h4">რატომ უნდა დაგეგმო მუსიკალური საღამო ონლაინ?</h4> 
+                            <p class="parp">ფიზიკური სალაროებიდან ციფრულ სივრცეში გადანაცვლება არა მხოლოდ კომფორტი, არამედ გარანტიაა, რომ შენს ადგილს დარბაზში არავინ დაიკავებს. პოპულარული <br>
+                            კონცერტების ბილეთები ხშირად სალაროს გახსნამდე ბევრად ადრე იყიდება, ონლაინ პლატფორმა კი საშუალებას გაძლევს, პირველმა ნახო სასურველი კონცერტი და <br>
+                            დაჯავშნო ადგილი.</p> 
+                            <p><strong class="pst">მუსიკალური ღონისძიებების მრავალფეროვანი არჩევანი</strong></p>
+                            <p class="parp">მსმენელებისთვის გადამწყვეტია ერთ სივრცეში სრული სურათის დანახვა. TKT-ზე თავს იყრის ყველა ტიპის ღონისძიება. გაინტერესებთ მასშტაბური კონცერტები თბილისში, <br> 
+                            თუ ლოკალური, მცირე ზომის live music ბილეთები? აქ ყველაფერი ერთადაა, რაც გეხმარება, არ გამოგრჩეს მნიშვნელოვანი სიახლეები და წინასწარ დაგეგმო დასვენების <br>
+                            დღეები.</p> 
+                            <p><strong class="pst">ბილეთების ყიდვა ონლაინ რამდენიმე წუთში, ნებისმიერი ადგილიდან</strong></p>
+                            <p class="parp">ბილეთების ყიდვა ონლაინ აღარ მოითხოვს რთულ და ხანგრძლივ პროცედურებს. რამდენიმე მარტივი ნაბიჯით, საცობში ყოფნისას თუ მუშაობის პარალელურად, შეგიძლია <br> 
+                            გაეცნო ღონისძიების დეტალებს და შეიძინო ბილეთი. ეს იდეალური გამოსავალია მათთვის, ვისაც დატვირთული სამუშაო გრაფიკი აქვს და დამატებითი დროის გამოყოფა <br>
+                            უჭირს.</p>
+                            <p><strong class="pst">ადგილის შერჩევა ციფრული რუკის დახმარებით</strong></p>
+                            <p class="parp">ონლაინ შეძენისას ერთ-ერთი მთავარი უპირატესობა ინტერაქციული რუკაა. თქვენ ზუსტად იცით, სად ისხდებით, როგორი იქნება ხილვადობა სცენასთან მიმართებით და <br> 
+                            რამდენად ახლოს იქნებით საყვარელ შემსრულებელთან. ადგილის გააზრებული შერჩევა გაცილებთ მოულოდნელობებს და გიქმნით კომფორტს.</p>
+                            <h4 class="h4">სივრცეები, რომლებიც საუკეთესო ატმოსფეროს ქმნის</h4>
+                            <p class="parp">სასიამოვნო მუსიკალური საღამო პირდაპირ კავშირშია იმ სივრცესთან, სადაც ის ტარდება. საქართველოში არაერთი გამორჩეული ლოკაციაა, რომელიც სხვადასხვა <br>
+                            გემოვნებისა თუ მოთხოვნის მსმენელს მასპინძლობს, ჩვენ კი ამ სივრცეებთან აქტიურად ვთანამშრომლობთ.</p> 
+                            <ul>
+                                <li><p class="pl"><strong class="sl">შუაგული:</strong>თუკი ქალაქის ხმაურისგან დასვენება და ბუნებაში მუსიკის მოსმენა გიზიდავთ, ეს ლოკაცია შეუცვლელია. ის იდეალურია საზაფხულო ფესტივალებისა და ღია ცის <br>
+                                ქვეშ გამართული იმ ღონისძიებებისთვის, სადაც ატმოსფერო ისეთივე მნიშვნელოვანია, როგორც მუსიკა.</p></li>
+                                <li><p class="pl"><strong class="sl">თბილისის სახელმწიფო კონსერვატორია:</strong>კლასიკური მუსიკის მოყვარულებისთვის ეს მთავარი დანიშნულების ადგილია. მისი ისტორიული დარბაზი და უნიკალური <br>
+                                აკუსტიკა კლასიკურ საღამოებს სრულიად სხვა ჟღერადობას სძენს.</p></li>
+                                <li><p class="pl"><strong class="sl">ფილარმონია (თბილისის საკონცერტო დარბაზი):</strong>ეს ადგილი ათწლეულებია ქალაქის კულტურული ცხოვრების ეპიცენტრია. კონცერტი ფილარმონიაში ბევრისთვის <br>
+                                ტრადიციაა და ბილეთები ყოველთვის მოთხოვნადია.</p></li>
+                                <li><p class="pl"><strong class="sl">თეატრი:</strong>მათთვის, ვინც მრავალმხრივ გამოცდილებას ეძებს, ეს მულტიფუნქციური სივრცე საუკეთესო არჩევანია. აქ ერთმანეთს გასტრონომია და საშემსრულებლო <br>
+                                ხელოვნება ერწყმის, რაც საღამოს უფრო ინტიმურსა და დახვეწილს ხდის.</p></li>
+                                <li><p class="pl"><strong class="sl">Black Sea Arena:</strong>როდესაც საქმე მსოფლიო დონის ვარსკვლავებსა და გრანდიოზულ შოუებს ეხება, მთელი ყურადღება შეკვეთილისკენ არის მიმართული. ბილეთები Black <br>
+                                Sea Arena-ზე ნიშნავს, რომ თქვენ ხდებით მაღალტექნოლოგიური და მასშტაბური სანახაობის ნაწილი.</p></li>
+                            </ul> 
+                            <h4 class="h4">პოპულარული მუსიკალური ჟანრები მსმენელის ინტერესების მიხედვით</h4> 
+                            <p class="parp">აუდიტორია მრავალფეროვანია და ცოცხალ მუსიკასთან დაკავშირებით თითოეულ ჯგუფს თავისი მოლოდინი აქვს.</p> 
+                            <ul>
+                                <li><p class="pl"><strong class="sl">ტურისტული სეგმენტი და ლოკალური კულტურა:</strong> უცხოელი ვიზიტორების დიდი ნაწილი მიზანმიმართულად ეძებს ავთენტურ გამოცდილებას. მათთვის ქართული ესტრადა, <br>
+                                ტრადიციული მოტივები და ფოლკლორი მთავარი ინტერესის საგანია. ტურისტების მეორე ნაწილი კი ქვეყანაში სპეციალურად ჩამოდის რეგიონული ფესტივალებისა თუ <br>
+                                საერთაშორისო არტისტების მოსასმენად.</p></li>
+                                <li class="pl"><p><strong class="sl">ღამის ცხოვრება და ელექტრონული მუსიკა:</strong>ახალგაზრდებისთვის კლუბები თბილისში და ელექტრონული მუსიკის ღონისძიებები განტვირთვისა და სოციალიზაციის <br>
+                                მთავარი წყაროა. თბილისის საკლუბო სცენა დიდი ხანია გასცდა ლოკალურ მასშტაბებს და საერთაშორისო აღიარება მოიპოვა.</p></li>
+                                <li><p class="pl"><strong class="sl">მშვიდი და კლასიკური საღამოები:</strong>წყვილებისთვის, ოჯახებისა თუ მეგობრების ჯგუფებისთვის ხშირად პრიორიტეტულია კლასიკური მუსიკის კონცერტები ან ჯაზის <br>
+                                საღამოები. ასეთი ღონისძიებები იძლევა საშუალებას, ერთად გატარებული დრო ესთეტიკურად და ემოციურად დატვირთული იყოს.</p></li>
+                                <li><p class="pl"><strong class="sl">პოპ და როკ მუსიკა:</strong>განსაკუთრებით მოთხოვნადია მასობრივი პოპ და როკ კონცერტები თბილისში, რომლებიც დიდ აუდიტორიას აერთიანებს და სტადიონებზე თუ ღია <br>
+                                სივრცეებში დაუვიწყარ ატმოსფეროს ქმნის.</p></li>
+                            </ul> 
+                            <h4 class="h4">თბილისის ღამის ცხოვრება და ელექტრონული მუსიკა</h4>
+                            <p class="parp">ახალგაზრდებისთვის კლუბები თბილისში და ელექტრონული მუსიკის ღონისძიებები განტვირთვისა და სოციალიზაციის მთავარი წყაროა. თბილისის საკლუბო სცენა დიდი <br>
+                            ხანია გასცდა ლოკალურ მასშტაბებს და საერთაშორისო აღიარება მოიპოვა. ელექტრონული მუსიკის ღონისძიებები და ყოველკვირეული ივენთები ქალაქის კულტურული <br>
+                            ცხოვრების განუყოფელი ნაწილია. პლატფორმაზე მუდმივად ნახავ თბილისის წამყვანი კლუბებისა და ანდერგრაუნდ სივრცეების განრიგს. ეს სეგმენტი გამოირჩევა მაღალი <br>
+                            დინამიკით, ამიტომ ბილეთების წინასწარ, ონლაინ შეძენა საუკეთესო გზაა, რათა თავიდან აიცილო რიგები შესასვლელთან და გარანტირებულად მოხვდე სასურველ ივენთზე.</p>
+                            <h4 class="h4">ბილეთის ონლაინ შეძენის პროცესი</h4>
+                            <p class="parp">სასურველი ღონისძიების მოძიება <span class="blue">TKT</span>-ზე მარტივია.</p>
+                            <ol>
+                                <li><p class="pl"><strong class="sl">ძიება:</strong>მოძებნეთ ღონისძიება თარიღის მიხედვით.</p></li>
+                                <li><p class="pl"><strong class="sl">დეტალების გაცნობა:</strong>გადაამოწმეთ დაწყების დრო, ლოკაცია და ღონისძიების სპეციფიკა.</p></li>
+                                <li><p class="pl"><strong class="sl">ადგილის შერჩევა:</strong>გახსენით დარბაზის ვირტუალური რუკა და მონიშნეთ კონკრეტული სკამი ან ზონა შენი ბიუჯეტისა და სურვილის შესაბამისად.</p></li>
+                                <li><p class="pl"><strong class="sl">გადახდა:</strong>მიუთითეთ საჭირო მონაცემები და გადაიხადეთ უსაფრთხოდ.</p></li>
+                            </ol> 
+                            <p class="parp">შეძენის შემდეგ, ბილეთი მომენტალურად გამოიგზავნება ელ-ფოსტაზე და პირად პროფილშიც აისახება.</p> 
+                            <p class="parp">მაღალი მოთხოვნის მქონე ღონისძიებებზე თავისუფალი ადგილები ძალიან სწრაფად ქრება. შეარჩიე საინტერესო არტისტი და დაჯავშნე ადგილი ახლავე.</p>
+                        </div>
+                    </div>
+                    <button class="moreBtn" id="toggleBtnn">
+                        <span class="btnTxtt">ვრცლად</span>
+                        <span class="btnArr">˅</span>
+                    </button>
+                </div>
+                
+            </div>
+                   
+        </div>
+    </section>
+    
+    </section>
+    <footer>
+    <div class="footerdiv">
+    <div class="topofthefooter">
+    <div class="app-info">
+        <img src="/footer/logo.svg"  class="footer-logo">
+        <h3 class="app-title">გადმოწერე განახლებული აპლიკაცია</h3>
+        <p class="app-desc">ახალი TKT.GE-ს აპლიკაციით — <b>შეიძენ</b> სასურველ ბილეთს, <b>შეინახავ</b> შენს ციფრულ სივრცეში და <b>გააგზავნი</b> მეგობრებთან სულ რამდენიმე წამში. ყველაფერი რაც გჭირდება ერთ აპლიკაციაში</p>
+        <a href="https://tkt.ge/app" target="_blank" class="store-links">
+            <img src="/footer/app-store.svg"  class="store-btn">
+            <img src="/footer/google-play.svg"  class="store-btn">
+        </a>
+    </div>
+    <div class="app-mocks">
+        <img src="/footer/./app-mock-4.png" class="mock-back">
+        <img src="/footer/./app-mock-3.png" class="mock-front">
+    </div>
+</div>
+    <hr>
+    <div class="shuafooter">
+        <ul class="listebi">
+            <li><h1 class="listtittle">კატეგორიები</h1></li>
+            <li><a href="#" class="desclink">მუსიკა / კონცერტი</a></li>
+            <li><a href="#" class="desclink">თეატრი</a></li>
+            <li><a href="#" class="desclink">ოპერა</a></li>
+            <li><a href="#" class="desclink">სპორტი</a></li>
+            <li><a href="#" class="desclink">საერთაშორისო</a></li>
+            <li><a href="#" class="desclink">ომნიბუსი</a></li>
+            <li><a href="#" class="desclink">ფესტივალი</a></li>
+            <li><a href="#" class="desclink">საბავშვო</a></li>
+        </ul>
+        <ul class="listebi">
+            <li><a href="#" class="desclink emptyspace">კონფერენცია</a></li>
+            <li><a href="#" class="desclink">სტენდაფი</a></li>
+            <li><a href="#" class="desclink">ტურიზმი</a></li>
+            <li><a href="#" class="desclink">ჰობი</a></li>
+            <li><a href="#" class="desclink">მასტერკლასი</a></li>
+            <li><a href="#" class="desclink">მუზეუმი</a></li>
+            <li><a href="#" class="desclink">ზღვა</a></li>
+        </ul>
+        <ul class="listebi">
+            <li><h1 class="listtittle">დახმარება</h1></li>
+            <li><a href="#" class="desclink">ონლაინ დახმარება</a></li>
+            <li><a href="#" class="desclink">შეფასება</a></li>
+            <li><a href="#" class="desclink">ორგანიზატორებისთვის</a></li>
+            <li><a href="#" class="desclink">ხშირად დასმული კითხვები</a></li>
+            <li><a href="#" class="desclink">+995 32 2195577</a></li>
+            <li><a href="#" class="desclink">support@tkt.ge</a></li>
+            <li><a href="#" class="desclink">ანონიმური უკუკავშირი</a></li>
+            <li>
+                <div class="linkstofaceinsta">
+                    <a href="https://www.facebook.com/TKT.GE" class="faceblink" target="_blank">
+                        <img src="/footer/icons8-facebook-circled-50.png">
+                    </a>
+                    <a href="https://www.instagram.com/tkt.ge" class="instalink" target="_blank">
+                        <img src="/footer/./icons8-instagram-circle-30.png">
+                    </a>
+                </div>
+            </li>
+        </ul>
+        <ul class="listebi">
+            <li><h1 class="listtittle">კინო</h1></li>
+            <li><a href="#" class="desclink">კინოთეატრი ამირანი</a></li>
+            <li><a href="#" class="desclink">კავეა თბილისი მოლი</a></li>
+            <li><a href="#" class="desclink">კავეა ისთ ფოინთი</a></li>
+            <li><a href="#" class="desclink">კავეა გალერია</a></li>
+            <li><a href="#" class="desclink">კავეა სითი მოლი</a></li>
+            <li><a href="#" class="desclink">კავეა გრანდ მოლი ბათუმი</a></li>
+            <li><a href="#" class="desclink">ივერია ხაშური</a></li>
+        </ul>
+        <ul class="listebi">
+            <li><h1 class="listtittle">მატარებელი</h1></li>
+            <li><a href="#" class="desclink">თბილისი - ბათუმი</a></li>
+            <li><a href="#" class="desclink">თბილისი - ფოთი</a></li>
+            <li><a href="#" class="desclink">თბილისი - ქუთაისი</a></li>
+            <li><a href="#" class="desclink">თბილისი - ურეკი</a></li>
+            <li><a href="#" class="desclink">თბილისი - ოზურგეთი</a></li>
+        </ul>
+        <ul class="listebi">
+            <li><h1 class="listtittle">ფრენა</h1></li>
+            <li><a href="#" class="desclink">ავიაკომპანიები</a></li>
+            <li><a href="#" class="desclink">თბილისი - სტამბოლი</a></li>
+            <li><a href="#" class="desclink">თბილისი - ბერლინი</a></li>
+            <li><a href="#" class="desclink">თბილისი - პარიზი</a></li>
+            <li><a href="#" class="desclink">თბილისი - ბარსელონა</a></li>
+            <li><a href="#" class="desclink">თბილისი - ბაქო</a></li>
+            <li><a href="#" class="desclink">განმარტებითი ლექსიკონი</a></li>
+        </ul>
+    </div>
+    <hr>
+    <div class="bottomofthefooter">
+        <div class="tophalff">
+            <div class="footerlinksbottom">
+                <a href="#" class="footera">წესები და პირობები</a>
+                <a href="#" class="footera">კონფიდენციალების პოლიტიკა</a>
+                <a href="#" class="footera">Cookie-ს პოლიტიკა</a>
+                <a href="#" class="footera">გარემოსდაცვითი პოლიტიკა</a>
+                <a href="#" class="footera">TKT ქლაბის შესახებ</a>
+            </div>
+            <button class="lang">
+                <img src="/icons8-globe-50.png" class="globe">
+                <h1 class="loginsettext">ქართული ▾</h1>
+            </button>
+        </div>
+        <div class="bottomhalff">
+                <img src="/footer/tnet.svg" class="btntnet">
+            </a>
+            <a href="#" class="footerlastlinks"><img src="/footer/myauto.svg" class="myautosizes"></a>
+            <a href="#" class="footerlastlinks"><img src="/footer/myparts.svg" class="myautosizes"></a>
+            <a href="#" class="footerlastlinks"><img src="/footer/myhome.svg" class="myautosizes"></a>
+            <a href="#" class="footerlastlinks"><img src="/footer/mymarket.svg" class="myautosizes"></a>
+            <a href="#" class="footerlastlinks"><img src="/footer/myjobs.svg" class="myautosizes"></a>
+            <a href="#" class="footerlastlinks"><img src="/footer/super-app-logo.svg" class="myautosizes"></a>
+            <a href="#" class="footerlastlinks"><img src="/footer/logo.svg" class="mainlogo"></a>
+            <a href="#" class="footerlastlinks"><img src="/footer/swoop-v3.svg" class="lasttwologo"></a>
+            <a href="#" class="footerlastlinks"><img src="/footer/livo.svg" class="lasttwologo"></a>
+        </div>
+    </div>
+    
+</div>
+
+</footer>
+<nav class="bottom-nav-bar">
+    <a href="#" class="bottom-nav-item active">
+        <img src="/icons8-home-50.png" alt="">
+        <span>მთავარი</span>
+    </a>
+    <a href="#" class="bottom-nav-item">
+        <img src="/icons8-menu-24.png" alt="">
+        <span>კატეგორია</span>
+    </a>
+    <a href="#" class="bottom-nav-item">
+        <img src="/icons8-ticket-80.png" alt="">
+        <span>ჩემი ბილეთი</span>
+    </a>
+    <a href="#" class="bottom-nav-item">
+        <img src="/icons8-person-48.png" alt="">
+        <span>შესვლა</span>
+    </a>
+</nav>
+
+
+
+
+    
+
+
+
+    <script src="/script.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

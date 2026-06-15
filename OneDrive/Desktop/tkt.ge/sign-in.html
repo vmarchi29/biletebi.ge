@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TKT.GE - შესვლა</title>
+    <link rel="stylesheet" href="/sign-in.css">
+</head>
+<body>
+    <div class="lang-top">
+        <button class="lang-btn" id="langBtn">
+            <img src="/icons8-globe-50.png" alt="" class="logo">
+            <span id="langText">ქარ</span>
+        </button>
+    </div>
+
+    <div class="wrapper">
+        <div class="card">
+            <div class="logo">
+                <img src="/logo.svg" alt="" onclick="window.location.href='/index.html'">
+            </div>
+
+            <div class="input-group">
+                <div class="phone-input">
+                    <button class="country-code" id="codeBtn">+995 <span>▾</span></button>
+                    <div class="divider"></div>
+                    <div class="input-inner">
+                        <label>ელფოსტა / მობილურის ნომერი</label>
+                        <input type="text" id="phoneInput" placeholder="574013698">
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <div class="pass-input">
+                    <div class="input-inner">
+                        <label>პაროლი</label>
+                        <input type="password" value="12345678" id="passInput" placeholder="••••••••••••">
+                    </div>
+                    <button class="eye-btn" id="eyeBtn">
+                        <img src="./icons8-eye-50.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="forgot">
+                <a href="#">პაროლის აღდგენა</a>
+            </div>
+
+            <button class="submit-btn">შესვლა</button>
+
+            <div class="social-btns">
+                <button class="social-btn">
+                    <img src="/icons8-google-48.png" alt="">
+                </button>
+                <button class="social-btn">
+                    <img src="icons8-facebook-48 (1).png" alt="">    
+                </button>
+                <button class="social-btn">
+                    <img src="icons8-apple-logo-30.png" alt="">
+                </button>
+            </div>
+
+            <p class="register-text">
+                არ გაქვს ანგარიში? <a href="#">შეექმენი</a>
+            </p>
+
+            <div class="tnet-section">
+                <div class="tnet-logo">
+                    <img src="/footer/tnet.svg" alt="">
+                </div>
+                <p>ერთი ანგარიშით თინეტის 9 პლატფორმაზე გამოიყენე</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="/sign-in.js"></script>
+</body>
+</html>

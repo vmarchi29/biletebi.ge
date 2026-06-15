@@ -1,0 +1,211 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    background: #0d1130;
+    color: #ffffff;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    min-height: 100vh;
+}
+ 
+.filmi-wrap { padding: 40px 0 20px; }
+.filmi-shigthavsi {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 32px;
+    display: flex;
+    gap: 40px;
+}
+ 
+.marcxena-bloki { flex: 0 0 540px; }
+.foto-wrap {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    aspect-ratio: 16/9;
+}
+.filmi-foto { width: 100%; height: 100%; object-fit: cover; display: block; }
+ 
+.foto-bneleba {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, transparent 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 24px;
+    gap: 14px;
+}
+.filmi-satauri { font-size: 22px; font-weight: 700; }
+ 
+.treileri-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 22px;
+    background: #7c3aed;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: fit-content;
+    transition: 0.2s;
+}
+.treileri-btn:hover { background: #6d28d9; }
+ 
+.marjvena-bloki { flex: 1; display: flex; flex-direction: column; gap: 16px; }
+.info-badges { display: flex; gap: 10px; }
+.badge {
+    background: #1a2340;
+    border: 1px solid rgba(255,255,255,0.1);
+    color: #fff;
+    font-size: 13px;
+    padding: 6px 14px;
+    border-radius: 8px;
+}
+.info-strofa { display: flex; flex-direction: column; gap: 4px; }
+.info-satauri { font-size: 13px; color: #6b7280; }
+.info-teksti { font-size: 15px; color: #ffffff; line-height: 1.4; }
+ 
+
+.modal-skreini {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 9999;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.modal-skreini.gacsnili { display: flex; }
+ 
+.modal-box {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    background: #0d1530;
+    border-radius: 16px;
+    overflow: hidden;
+}
+.modal-daxurva {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 10;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.1);
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.video-konteineri { aspect-ratio: 16/9; width: 100%; }
+.video-konteineri iframe { width: 100%; height: 100%; border: none; display: block; }
+ 
+
+.dgeebi-scroll {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    padding: 15px 0;
+    scrollbar-width: none;
+}
+.dgeebi-scroll::-webkit-scrollbar { display: none; }
+ 
+.dge-elementi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 65px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #0b112c;
+    transition: 0.3s;
+}
+.dge-elementi .saxeli { font-size: 12px; color: #9c9c9c; margin-bottom: 2px; }
+.dge-elementi .ricxvi { font-size: 18px; font-weight: 600; color: #6f6f6f; }
+ 
+.dge-elementi.aqtiuri { background: #20093b; }
+.dge-elementi.aqtiuri .saxeli, .dge-elementi.aqtiuri .ricxvi { color: white; }
+.dge-elementi.ueshme .saxeli, .dge-elementi.ueshme .ricxvi { color: red; }
+.dge-elementi.aqtiuri.ueshme .saxeli, .dge-elementi.aqtiuri.ueshme .ricxvi { color: white; }
+ 
+
+.seansebi-wrap { padding-bottom: 60px; }
+.seansebi-shigthavsi { max-width: 1160px; margin: 0 auto; padding: 0 32px; }
+.kino-sia { display: flex; flex-direction: column; margin-top: 10px; }
+ 
+.kino-row {
+    display: flex;
+    align-items: center;
+    padding: 24px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.kino-row:last-child { border-bottom: none; }
+ 
+.kino-info { display: flex; align-items: center; gap: 20px; flex: 0 0 340px; }
+ 
+.logo-brendi {
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 1.1;
+    text-transform: uppercase;
+    min-width: 75px;
+}
+.logo-brendi small { font-size: 7px; font-weight: 500; opacity: 0.7; }
+.logo-brendi.amirani { color: #ffffff; letter-spacing: 0.5px; }
+.logo-brendi.cavea { color: #e91e8c; font-style: italic; }
+ 
+.kino-saxeli { font-size: 16px; font-weight: 500; color: #e5e7eb; }
+.baratis-blokebi { display: flex; gap: 12px; flex-wrap: wrap; }
+ 
+.seansi-barati {
+    background: #111827;
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 12px;
+    padding: 12px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 110px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.seansi-barati:hover { border-color: #7c3aed; background: #161f32; }
+ 
+.s-fasi { font-size: 13px; color: #6366f1; font-weight: 600; }
+.s-ena  { font-size: 13px; color: #9ca3af; font-weight: 500; }
+.s-dro  { font-size: 17px; font-weight: 700; color: #fff; display: flex; align-items: center; gap: 6px; }
+.s-dro i { font-size: 13px; color: #9ca3af; }
+
+.baratis-blokebi{
+    display: flex;
+    gap: 15px;
+}
+ 
+@media (max-width: 480px) {
+    .filmi-shigthavsi { flex-direction: column; padding: 0 16px; gap: 20px; }
+    .marcxena-bloki { flex: none; width: 100%; }
+    .seansebi-shigthavsi { padding: 0 16px; }
+    
+    .kino-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        padding: 20px 0;
+    }
+    .kino-info { flex: none; width: 100%; gap: 12px; }
+    .kino-saxeli { font-size: 14px; }
+    .seansi-barati { padding: 10px 14px; min-width: 100px; }
+    .s-dro { font-size: 15px; }
+}

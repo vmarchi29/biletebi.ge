@@ -1,0 +1,1541 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+.fly_background{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1520px;
+    height: 541.750px;
+}
+.fly_logo{
+    position: relative;
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+}
+.fly_newDrop1{
+    position:relative;
+    width:160px;
+    height:40px;
+}
+
+.fly_newDrop2{
+    position:relative;
+    width:100px;
+    height:40px;
+}
+
+.fly_dropdownTrig1,
+.fly_dropdownTrig2{
+    height:40px;
+    padding-left:12px;
+    padding-right:12px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    background:rgba(255,255,255,0.1);
+    border-radius:12px;
+    color:white;
+    cursor:pointer;
+}
+
+.fly_dropdownTrig1:hover,
+.fly_dropdownTrig2:hover{
+    border:1px solid rgba(255,255,255,.4);
+}
+
+.fly_earth{
+    width:24px;
+    height:24px;
+}
+
+.fly_selText1,
+.fly_selText2{
+    font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 16px;
+    font-size:16px;
+
+}
+
+.fly_arrowIcon1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:700;
+    margin-top:-5px;
+    margin-left:auto;
+}
+
+.fly_geoflag,
+.fly_uk{
+    width:21px;
+    height:16px;
+    border-radius:5px;
+}
+
+.fly_dropMenu1{
+    position:absolute;
+    top:55px;
+    left:0;
+    width:190px;
+    background:white;
+    border-radius:15px;
+    box-shadow:0 8px 25px rgba(0,0,0,.15);
+    display:none;
+    z-index:100;
+}
+
+.fly_dropMenu2{
+    position:absolute;
+    top:55px;
+    left:0;
+    width:150px;
+    background:white;
+    border-radius:15px;
+    box-shadow:0 8px 25px rgba(0,0,0,.15);
+    display:none;
+    z-index:100;
+}
+
+.fly_dropMenu1.show,
+.fly_dropMenu2.show{
+    display:block;
+}
+
+.fly_title{
+    padding:18px 20px 10px;
+    font-size:14px;
+    color:#8d8d8d;
+    font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+      font-size: 16px;
+}
+
+.fly_dropdownItem1,
+.fly_dropdownItem2{
+    font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+      font-size: 16px;
+    display:flex;
+    align-items:center;
+    gap:15px;
+    padding:14px 20px;
+    font-size:16px;
+    cursor:pointer;
+    font-family:TBCX, ui-sans-serif, system-ui;
+}
+
+.fly_dropdownItem1:hover,
+.fly_dropdownItem2:hover{
+    background:#f5f5f5;
+    border-radius: 15px;
+}
+
+.check{
+    margin-left:auto;
+    color:#35c759;
+    font-weight:bold;
+    visibility:hidden;
+}
+
+.fly_dropdownItem1.active .check,
+.fly_dropdownItem2.active .check{
+    visibility:visible;
+}
+.fly_user{
+    width: 20px;
+    height: 20px;
+    margin-top: 8px;
+}
+.fly_text{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.fly_login{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 118.24px;
+    border-radius: 12px;
+    height: 40px;
+    background:rgba(255,255,255,0.1);
+    color: rgb(255, 255, 255);
+}
+.fly_login:hover{
+    border:0.8px solid rgba(255,255,255,.4);
+    border-radius: 15px;
+}
+.fly_spiral{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: 0.8px solid rgb(221, 221, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.fly_spiral:hover{
+    border: 0.8px solid rgb(60, 116, 255);
+}
+.fly_spirallogo{
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+}
+.fly_tktge{
+    cursor: pointer;
+    position: relative;
+    width: 139.962px;
+    height: 39.2px;
+    border: none;
+    background:rgba(15, 120, 255, 0.2);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+.fly_tkt{
+    width: 22px;
+    height: 16px;
+}
+.fly_text1{
+    width: 49.962px;
+    height: 20px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    margin-top: 15px;
+}
+.fly_arrow{
+    width: 20px;
+    height: 20px;
+}
+header{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 115px;
+    padding-right: 140px;
+}
+.fly_headright{
+    display: flex;
+    justify-content: flex-end;
+    gap: 17px;
+}
+.fly_text2{
+    position: relative;
+    width: 810px;
+    height: 96px;
+    color: rgb(255, 255, 255);
+    font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-left: 115px;
+    margin-top: 65px;
+}
+.fly_text3{
+    margin-top: 13px;
+    position: relative;
+    color: rgb(255, 255, 255, 0.7);
+font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 115px;
+}
+.fly_strikes{
+    position: relative;
+    width: 465px;
+    height: 42px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+    margin-top: -5px;
+}
+.fly_strike1{
+    height: 38px;
+    background-color: rgb(235, 237, 255);
+    width: 0.474308px;
+}
+.fly_strike2{
+    height: 38.1px;
+    background-color: rgb(235, 237, 255);
+    width: 0.587194px;
+}
+.fly_strike3{
+    height: 38.3px;
+    background-color: rgb(235, 237, 255);
+    width: 0.4700079px;
+}
+.fly_strike4{
+    height: 38.5px;
+    background-color: rgb(235, 237, 255);
+    width: 0.812964px;
+}
+.fly_strike5{
+    height: 38.7px;
+    background-color: rgb(235, 237, 255);
+    width: 0.92585px;
+}
+.fly_strike6{
+    height: 38.9px;
+    background-color: rgb(235, 237, 255);
+    width: 1.03874px;
+}
+.fly_strike7{
+    height: 39.1px;
+    background-color: rgb(235, 237, 255);
+    width: 1.15209px;
+}
+.fly_strike8{
+    height: 39.3px;
+    background-color: rgb(235, 237, 255);
+    width: 1.26498px;
+}
+.fly_strike9{
+    height: 39.5px;
+    background-color: rgb(235, 237, 255);
+    width: 1.37787px;
+}
+.fly_strike10{
+    height: 39.7px;
+    background-color: rgb(235, 237, 255);
+    width: 1.49075px;
+}
+.fly_strike11{
+    height: 39.9px;
+    background-color: rgb(235, 237, 255);
+    width: 1.60364px;
+}
+.fly_strike12{
+    height: 40.1px;
+    background-color: rgb(235, 237, 255);
+    width: 1.71652px;
+}
+.fly_strike13{
+    height: 40.3px;
+    background-color: rgb(235, 237, 255);
+    width: 1.82941px;
+}
+.fly_strike14{
+    height: 40.5px;
+    background-color: rgb(235, 237, 255);
+    width: 1.94229px;
+}
+.fly_strike15{
+    height: 40.7px;
+    background-color: rgb(235, 237, 255);
+    width: 2.05518px;
+}
+.fly_strike16{
+    height: 40.9px;
+    background-color: rgb(235, 237, 255);
+    width: 2.16806px;
+}
+.fly_strike17{
+    height: 41.1px;
+    background-color: rgb(235, 237, 255);
+    width: 2.28142px;
+}
+.fly_strike18{
+    height: 41.3px;
+    background-color: rgb(235, 237, 255);
+    width: 2.39431px;
+}
+.fly_strike19{
+    height: 41.5px;
+    background-color: rgb(235, 237, 255);
+    width: 2.50719px;
+}
+.fly_strike20{
+    height: 41.7px;
+    background-color: rgb(235, 237, 255);
+    width: 2.62008px;
+}
+.fly_strike21{
+    height: 41.8px;
+    background-color: rgb(235, 237, 255);
+    width: 2.73296px;
+}
+.fly_strike22{
+    height: 42px;
+    background-color: rgb(246, 248, 252);
+    width: 2.84585px;
+}
+.fly_textandlines{
+    display: flex;
+    gap: 300px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 140px;
+}
+.fly_place1, .fly_place2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    width:278.288px ;
+    height: 58.400px;
+    background-color: rgb(246, 248, 252);
+    border-radius: 12px;
+    border: 0.8px solid rgb(202, 202, 204);
+}
+.fly_takeoff, .fly_land{
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+.fly_input1, .fly_input2{
+    background: none;
+    border: none;
+    display: none;
+    margin-top: 4px;
+    outline: none;
+    width: 100px;
+    height: 20px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: black;
+    font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+.fly_saidan, .fly_sad, .fly_gafrena, .fly_dabruneba, .fly_mgzavritext{
+    font-size: 14px;
+    color: rgb(82, 85, 95);
+    font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    margin-left: 10px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.fly_saidan, .fly_sad{
+    margin-top: 30px;
+    transition: all 1s ease;
+}
+.fly_qveynebi{
+    position: relative;
+    /* display: none; */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all .25s ease;
+    width: 581.737px;
+    height: 292.800px;
+    background-color: rgb(246, 248, 252);
+    border-radius: 15px;
+    overflow: hidden scroll;
+    margin-left: 115px;
+    margin-top: 5px;
+    padding-top: 15px;
+    pointer-events: none;
+    z-index: 100;
+}
+.fly_qveynebi1{
+    z-index: 100;
+    position: relative;
+    opacity: 0;
+    visibility: hidden;
+    /* display: none; */
+    transform: translateY(-10px);
+    transition: all .25s ease;
+    width: 581.737px;
+    height: 292.800px;
+    background-color: rgb(246, 248, 252);
+    border-radius: 15px;
+    overflow: hidden scroll;
+    margin-top: -307px;
+    padding-top: 15px;
+    margin-left: 115px;
+    pointer-events: none;
+
+}
+.fly_saidansadplusdropdown{
+    display: flex;
+    flex-direction: column;
+}
+.fly_qveynebi.active{
+    opacity: 1;
+    visibility: visible;
+    /* display: block; */
+    transform: translateY(0);
+    pointer-events: auto;
+}
+.fly_input1.active{
+    display: block;
+}
+.fly_place1.active{
+    background-color: rgb(231, 241, 255);
+}
+.fly_qveynebi1.active1{
+    opacity: 1;
+    visibility: visible;
+    /* display: block; */
+    transform: translateY(0);
+    pointer-events: auto;
+}
+.fly_input2.active1{
+    display: block;
+}
+.fly_place2.active1{
+    background-color: rgb(231, 241, 255);
+}
+.fly_saidansad{
+    display: flex;
+    gap: 15px;
+    margin-left: 115px;
+}
+.fly_uppercase{
+    color: rgb(25, 25, 83);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.fly_qalaqi, .fly_qveyana, .fly_qalaqi1, .fly_qveyana1{
+    height: 20px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;  
+    font-size: 14px;
+    font-weight: 500;
+}
+.fly_allinputs{
+    display: flex;
+    gap: 15px;  
+    margin-top: 60px;
+}
+.fly_qveyana, .fly_qveyana1{
+    margin-top: -5px;
+    color: rgba(0, 0, 0, 0.356);
+}
+.fly_one, .fly_two{
+    display: flex;
+    gap: 15px;
+    margin-left: 20px;
+}
+.fly_line{
+    width: 4px;
+    height: 60px;
+    background-color: black;
+    margin-left:65px ;
+}
+.fly_imgcalendar, .fly_imgcalendar1{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.fly_tarigi{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 356.150px;
+    height: 60px;
+    background-color: rgb(246, 248, 252);
+    border-radius: 12px;
+    border: 0.8px solid rgb(202, 202, 204);
+}
+.fly_mgzavri{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 192px;
+    height: 60px;
+    background-color: rgb(246, 248, 252);
+    border-radius: 12px;
+    border: 0.8px solid rgb(202, 202, 204);
+}
+.fly_mgzavriinside{
+    display: flex;
+    margin-left: 10px;
+}
+.fly_users{
+    width: 20.700px;
+    height: 24px;
+    margin-top: 6px;
+}
+.fly_dzebna{
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 60px;
+    background-color: rgb(0, 198, 194);
+    border: none;
+    border-radius: 12px;
+    width: 110px;
+
+}
+.fly_search{
+    width: 15px;
+    margin-left: 10px;
+}
+.fly_searchtext{
+    font-size: 14px;
+    color: rgb(82, 85, 95);
+    font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    margin-left: 10px;
+    font-weight: 500;
+    color: white;
+}
+
+
+.scrollimgs{
+    position: relative;
+    width: 1272px;
+    height: 477px;
+    overflow: hidden;
+    margin-top: -130px;
+    margin-left: 110px;
+    border-radius: 30px;
+    z-index: 1;
+}
+
+.fly_scrollimg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1272px;
+    height: 477px;
+    border-radius: 30px;
+    transition: transform 0.5s ease;
+}
+.next{
+    position: absolute;
+    top: 210px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: beige;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    z-index: 100;
+    right: 0;
+}
+.prev{
+    position: absolute;
+    top: 210px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: beige;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    z-index: 100;
+    left: 0;
+}
+.fly_onefrom3{
+    width: 408px;
+    height: 96px;
+    background-color: rgb(232, 232, 238);
+    border-radius: 24px;
+    border: none;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.fly_textfrom3{
+    color: rgb(25, 25, 83);
+    font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; 
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.9;
+}
+.fly_imgborder{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.fly_allthree{
+    padding-left: 90px;
+    padding-right: 115px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+.fly_populars{
+    width: 1520px;
+    height: 758px;
+    background-color: rgb(25, 25, 83);
+    position: absolute;
+}
+.fly_map{
+    position: absolute;
+    width: 1720px;
+    height: 758px;
+}
+.fly_train{
+    position: absolute;
+    right: 30px;
+    width: 410px;
+    height: 182.613px;
+    top: 40px;
+}
+.fly_populartext1{
+    color: rgb(255, 255, 255);
+    font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; 
+    font-size: 20px;
+    font-weight: 700;
+    margin-left:115px ;
+    margin-top: 90px;
+}
+.fly_populartext2{
+    color: rgba(255, 255, 255, 0.75);
+    font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; 
+    font-family: 400;
+    font-size: 16px;
+    margin-left: 115px;
+}
+.fly_city, .fly_cityimg{
+    position: relative;
+    width: 308px;
+    height: 155px;
+    border-radius: 10px;
+    cursor: pointer;
+    filter: brightness(90%);
+    
+}
+.fly_citytext{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; 
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: -40px;
+    margin-left: 30px;
+}
+.fly_four{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.fly_eight{
+    margin-top: 250px;
+    width: 1300px;
+    margin-left: 115px;
+}
+
+
+
+
+.FAQs{
+    background-color: white;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    padding: 60px 0;
+    margin-top: 80px;
+}
+.butTex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.detailsDiv{
+    display: grid;
+    grid-template-columns: 580px 580px;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: start;
+}
+.faqItem{
+    cursor: pointer;
+    background: rgb(244 244 244) ;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 100%;
+}
+.faqItem .faqContent {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.4s ease, opacity 0.3s ease;
+  transform: translateY(-5px);
+}
+
+.faqItem[open] .faqContent {
+  max-height: 500px;
+  opacity: 1;
+  transform: translateY();
+}
+summary{
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fp{
+    color: #1a2b42;
+    font-size: 13px;
+    line-height: 1.5;
+}
+.faqBtn{
+    padding: 6px 12px;
+    background-color: rgb(241, 12, 138);
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.fly_livehead{
+    display: flex;
+    width: 1080px;
+    margin-left: 30px;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.fly_headleft{
+    display: flex;
+    gap: 20px;
+}
+.fly_reddot{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(212, 41, 38, 0.842);
+    border: none;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.fly_headtext1{
+    font-size: 16px;
+    font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;     color: rgb(255, 255, 255);
+    font-weight: 700;
+    line-height: 25px;
+    margin-top: 28px;
+}
+.fly_livelist{
+    display: flex;
+    align-items: center;
+    width: 1120px;
+    height: 65px;
+}
+.fly_livelist:hover{
+    background-color: rgb(71, 71, 117);
+}
+.fly_listone, .fly_listtwo, .fly_listthree, .fly_listfour, .fly_listfive, .fly_listsix, .fly_listseven, .fly_listeight{
+    width: 150.075px;
+    height: 22.800px;
+    color: rgb(255, 255, 255);
+    font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;     font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+}
+.fly_listtwo{
+    margin-left: 35px;
+}
+.fly_wholelive{
+    width: 1167.200px;
+    height: 457.600px;
+    overflow-y: scroll;
+    background-color: rgb(25, 25, 83);
+    border-radius: 24px;
+    margin-top: -70px;
+
+}
+.fly_livecont{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+.fly_head{
+    width: 1152.200px;
+    height: 250px;
+    background-color: rgb(25, 25, 83);
+    border-radius: 24px;
+
+}
+.fly_btnfrom2{
+    width: 114px;
+    height: 38.400px;
+    /* background-color: rgb(71, 71, 117); */
+    border-radius: 8px;
+    border: 0.8px solid rgba(235, 237, 255, 0.601);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 14px;
+    font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; 
+    font-weight: 500;
+    background: none;
+    margin-right: -10px;
+    margin-top: 15px;
+}
+.fly_secname{
+    margin-right: 20px;
+}
+.fly_listone{
+    color: rgb(248, 211, 140);
+    font-size: 16px;
+    font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; 
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: -5px;
+}
+.fly_inliveline{
+    width: 1050px;
+    height: 0.1px;
+    border: 1px solid rgba(255, 255, 255, 0.118);
+}
+.fly_imginbtn{
+    width: 12.54px;
+    height: 11.74px;
+    margin-top: 10px;
+}
+.fly_textinbtn{
+    color: rgb(235, 237, 255);
+    font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px; 
+}
+.fly_pinkbtn{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 5px;
+    width: 152.68px;
+    height: 32px;
+    background-color: rgb(255, 0, 136);
+    border-radius: 9999px;
+    border: none;
+    margin-left: 140px;
+    margin-top: 60px;
+}
+.fly_underpink{
+    color: rgb(39, 42, 55);
+    font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 24px;
+    font-weight: 700;
+}
+.fly_movingone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 198.400px;
+    height: 78px;
+    border: 0.8px solid rgb(238, 248, 255);
+    background-color: rgb(238, 248, 255);
+    border-radius: 12px;
+    flex-shrink: 0;
+}
+.fly_movinimg{
+    width: 70.400px;
+    height: auto;
+}
+.fly_underscroll {
+    display: flex;
+    gap: 15px;
+    width: max-content;
+    animation: moveleft 15s linear infinite;
+}
+.fly_banner{
+    width: 1520px;
+    height: auto;
+    margin-top: 70px
+}
+.fly_lowerscroll{
+    width: 1520px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 584.800px;
+    background-color: rgb(232,232, 238);
+    margin-top: 50px;
+}
+.fly_pinkbtnandtext{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.fly_infohead{
+    color: rgb(39, 42, 55);
+    font-size: 20px;
+    font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 700;
+    line-height: 28px;
+    margin-top: 90px;
+    margin-left: 125px;
+}
+
+#secondfly_underscroll{
+    margin-left: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.article{
+    max-width: 1200px;
+    margin-left: 125px;
+}
+
+.content{
+    max-height: 160px;
+    overflow: hidden;
+    position: relative;
+    transition: max-height .6s ease;
+}
+
+.content::after{
+    content:"";
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    height:80px;
+    background:linear-gradient(
+        to bottom,
+        rgba(255,255,255,0),
+        #f5f5f5
+    );
+    pointer-events:none;
+    transition:0.3s;
+}
+
+.content.active{
+    max-height:5000px;
+}
+
+.content.active::after{
+    opacity:0;
+}
+
+.read-more-btn{
+    margin-top:20px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:12px 22px;
+    border:none;
+    border-radius:30px;
+    background:white;
+    color:#1d2b4f;
+    font-size:15px;
+    font-weight:600;
+    cursor:pointer;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.read-more-btn:hover{
+    transform:translateY(-2px);
+    box-shadow:0 8px 20px rgba(0,0,0,.12);
+}
+
+.read-more-btn i{
+    transition:0.4s;
+}
+
+.read-more-btn.active i{
+    transform:rotate(180deg);
+}
+.fly_boldinfo{
+    color: rgb(39, 42, 55);
+    font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 30px;
+}
+.fly_plaininfo{
+    color: rgb(39, 42, 55);
+    font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+margin-top: 30px;
+}
+.fly_last2img{
+    width: 112px;
+    height: 36px;
+}
+.fly_lastext{
+    font-size: 12px;
+    color: rgba(39, 42, 55, 0.803);
+    font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 500;
+    width: 380px;
+    margin-left: 30px;
+}
+.fly_lastdiv{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 125px;
+    gap: 15px;
+}
+.fly_calendarwrapper{
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+.saertashoriso_calendarBtn{
+    background-color: rgb(225, 39, 39);
+    border: none;
+    border-radius: 6px;
+    height: 38px;
+    width: 38px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.saertashoriso_dropdownCal{
+    position: absolute;
+    top: 65px;
+    left: -150px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgb(0,0,0,0.15);
+    padding: 30px;
+    display: none;
+    z-index: 100;
+    width: 800px;
+    overflow: hidden;
+}
+.saertashoriso_calTop{
+    padding:15px -10px;
+    margin-top: -10px;
+    border-bottom:1px solid #ececec;
+}
+
+.saertashoriso_calTop h2{
+    margin:0;
+    font-size:24px;
+    font-weight:700;
+    color:#222;
+    font-weight: 700;
+    font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+.saertashoriso_dropdownCal.show{
+    display: block;
+}
+.saertashoriso_monthsCont{
+    display: flex;
+    gap: 40px;
+    padding: 15px 20px;
+}
+.saertashoriso_monthBox{
+    flex: 1;
+}
+.saertashoriso_monthTitle{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+    color: rgb(39 42 55);
+    font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+.saertashoriso_weekdays,
+.saertashoriso_daysGrid{
+    display:grid;
+    grid-template-columns:repeat(7,1fr);
+    text-align:center;
+}
+
+.saertashoriso_weekdays{
+    margin-bottom:15px;
+    color:#666;
+    font-size:14px;
+    font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+.saertashoriso_daysGrid div{
+    width: 40px;
+    height: 40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:auto;
+    color:rgb(39 42 55);
+    cursor:pointer;
+    border-radius:10px;
+    transition:.2s;
+    font-weight:500;
+    font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.saertashoriso_daysGrid div:hover{
+    background:#f5f5f5;
+}
+
+.saertashoriso_daysGrid div.selected{
+    border:1px solid #d9d9d9;
+    background:#fff;
+    box-shadow:0 2px 8px rgba(0,0,0,.05);
+}
+
+.empty{
+    pointer-events:none;
+}
+.dep {
+    background: #cada6e;
+    border-radius: 10px;
+}
+
+@keyframes moveleft {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 600px){
+
+    body{
+        overflow-x: hidden;
+        max-width: 600px;
+    }
+
+    .fly_background{
+        width: 600px;
+        height: 350px;
+        object-fit: cover;
+    }
+
+    header{
+        padding: 15px;
+    }
+
+    .fly_headright{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .fly_logo, .fly_headright, .fly_text2, .fly_textandlines, .fly_strikes, .fly_line, .fly_imgcalendar1, .fly_dabruneba, .scrollimgs, .fly_populartext2, .fly_btnfrom2, .fly_btnfrom2, .fly_secname, .fly_banner{
+        display: none;
+    }
+    .tkt_mobileheaderpart1{
+        width: 550px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        margin-top: -15px;
+        margin-left: -10px;
+    }
+    .tkt_mob2tns{
+        display: flex;
+        gap: 10px;
+    }
+    .tkt_mobtktge{
+        width: 75.69px;
+        height: 36px;
+        background-color: rgba(15, 120, 255, 0.25);
+        color: rgb(235, 237, 255);
+        border-radius: 12px;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        gap: 7px;
+        justify-content: center;
+        align-items: center;
+        font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        font-size: 13px;
+        font-weight: 500;
+
+    }
+    header{
+        width: 90% !important;
+    }
+    .tkt_mobarrow{
+        width: 16px;
+        height: auto;
+        transform: rotate(-90deg);
+    }
+    .tkt_mobtktlogo{
+        width: 96px;
+        height: 44.800px;
+    }
+    .tkt_mobqar{
+        width: 58.663px;
+        height: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        color: rgb(232, 232, 238);
+        cursor: pointer;
+        font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        font-size: 10px;
+        font-weight: 500;
+        border: none;
+    }
+    .tkt_mobuser{
+        width: 36px;
+        height: 36px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+    }
+    .tkt_mobuserimg{
+        width: 20px;
+        height: 20px;
+    }
+    .fly_saidansad{
+        display: flex;
+        flex-direction: column;
+    }
+    .fly_place1, .fly_place2{
+        width: 550px;
+        height: 44px;
+        margin-left: -125px;
+        border-radius: 10px;
+    }
+    .fly_place2{
+        margin-top: -8px;
+    }
+    .fly_allinputs{
+        flex-direction: column;
+        margin: 30px 15px;
+    }
+    .fly_qveynebi, .fly_qveynebi1{
+        margin-left: -10px;
+        width: 550px;
+    }
+    .fly_calendarwrapper{
+        margin-top: -320px;
+        margin-left: -10px;
+    }
+    .fly_tarigi{
+        width: 270px;
+        height: 44px;
+        border-radius: 10px;
+    }
+    .saertashoriso_dropdownCal{
+        width: 500px;
+        margin-left: 150px;
+        margin-top: -10px;
+    }
+    .saertashoriso_monthBox{
+        margin-left: -25px;
+        width: 270px;
+    }
+    .saertashoriso_weekdays{
+        width: 270px;
+        margin-left: -15px;
+    }
+    .saertashoriso_daysGrid{
+        margin-left: -25px;
+        width: 200px;
+        height: 180px;
+    }
+    .fly_mgzavri{
+        width: 270px;
+        height: 44px;
+        border-radius: 10px;
+        margin-top: -75px;
+        margin-left: 270px;
+    }
+    .fly_dzebna{
+        width: 550px;
+        height: 44px;
+        margin-left: -10px;
+        
+    }
+    .tkt_mobscrollimgs{
+        display: block;
+        position: relative;
+        width: 550px;
+        height: 638.4px;
+        overflow: hidden;
+        border-radius: 30px;
+        z-index: 1;
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+    .fly_mobscrollimg{
+        position: absolute;
+        width: 550px;
+        height: 638.4px;
+        border-radius: 30px;
+        transition: transform 0.5s ease;
+    }
+
+    .mobnext{
+        position: absolute;
+        top: 270px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: beige;
+        font-size: 15px;
+        font-weight: 500;
+        border: none;
+        z-index: 100;
+        right: 0;
+        cursor: pointer;
+    }
+    .mobprev{
+        cursor: pointer;
+        position: absolute;
+        top: 270px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: beige;
+        font-size: 15px;
+        font-weight: 500;
+        border: none;
+        z-index: 100;
+        left: 0;
+    }
+    .fly_onefrom3{
+        width:556px ;
+        height: 64px;
+        border-radius: 24px;
+        margin-left: -80px;
+        margin-top: 10px;
+    }
+    .fly_allthree{
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .fly_populartext1{
+        margin-left: 20px;
+        margin-top: 15px;
+        font-size: 15px;
+        width: 100%;
+    }
+    .fly_mobeight{
+        margin-top: -140px ;
+        margin-left: -170px;
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+    .fly_mobeight::-webkit-scrollbar {
+        display: none;
+    }
+    .fly_map{
+        width: 350px !important;
+    }
+   
+
+    .fly_four {
+        display: flex;
+        gap: 10px;
+    }
+
+    .fly_cityimg{
+        width: 361px;
+        height: 181.512px;
+    }
+    .fly_city{
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+    .detailsDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .faqItem{
+        width: 530px;
+        margin-left: 10px;
+        margin-top: -10px;
+        border-radius: 24px;
+    }
+    summary{
+        font-size: 13px;
+        color: rgba(0, 0, 0, 0.647);
+        font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        font-weight: 400;
+    }
+    .fly_head{
+        width: 100%;
+        margin-top: -150px;
+        overflow-x: hidden;
+    }
+    .fly_wholelive{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .fly_livelist{
+        width: 100%;
+    }
+    .fly_livehead{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+       margin-top: 40px;
+    }
+    .fly_listone{
+        margin-left: -20px;
+    }
+    .fly_lowerscroll{
+        overflow: hidden;
+        width: 90%;
+        height: 540px;
+    }
+    .fly_pinkbtn{
+        width: 136px;
+        height: 32px;
+        margin-top: 25px;
+        margin-left: 35px;
+    }
+    .fly_textinbtn{
+        font-size: 10px;
+    }
+    .fly_underpink{
+        font-size: 12px;
+    }
+    .fly_mobbanner{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .fly_infohead{
+        margin-left: 10px;
+        font-size: 12px;
+        margin-top: 60px;
+    }
+    .article{
+        margin-left:10px ;
+    }
+    .fly_lastdiv{
+        margin-left: 10px;
+    }
+    .fly_listone{
+        font-size: 8px;
+
+    }
+    .fly_populars{
+    width: 100%;
+    height: 758px;
+    background-color: rgb(25, 25, 83);
+    position: absolute;
+}
+.prostadiv{
+    width: 600px;
+}
+.fly_livecont{
+    margin-top:200px;
+}
+}
