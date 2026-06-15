@@ -1206,3 +1206,336 @@ margin-top: 30px;
         transform: translateX(-50%);
     }
 }
+
+@media (max-width: 600px){
+
+    body{
+        overflow-x: hidden;
+        max-width: 600px;
+    }
+
+    .fly_background{
+        width: 600px;
+        height: 350px;
+        object-fit: cover;
+    }
+
+    header{
+        padding: 15px;
+    }
+
+    .fly_headright{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .fly_logo, .fly_headright, .fly_text2, .fly_textandlines, .fly_strikes, .fly_line, .fly_imgcalendar1, .fly_dabruneba, .scrollimgs, .fly_populartext2, .fly_btnfrom2, .fly_btnfrom2, .fly_secname, .fly_banner{
+        display: none;
+    }
+    .tkt_mobileheaderpart1{
+        width: 550px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        margin-top: -15px;
+        margin-left: -10px;
+    }
+    .tkt_mob2tns{
+        display: flex;
+        gap: 10px;
+    }
+    .tkt_mobtktge{
+        width: 75.68px;
+        height: 36px;
+        background-color: rgba(15, 120, 255, 0.25);
+        color: rgb(235, 237, 255);
+        border-radius: 12px;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        gap: 7px;
+        justify-content: center;
+        align-items: center;
+        font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        font-size: 13px;
+        font-weight: 500;
+
+    }
+    header{
+        width: 90% !important;
+    }
+    .tkt_mobarrow{
+        width: 16px;
+        height: auto;
+        transform: rotate(-90deg);
+    }
+    .tkt_mobtktlogo{
+        width: 96px;
+        height: 44.800px;
+    }
+    .tkt_mobqar{
+        width: 58.663px;
+        height: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        color: rgb(232, 232, 238);
+        cursor: pointer;
+        font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        font-size: 10px;
+        font-weight: 500;
+        border: none;
+    }
+    .tkt_mobuser{
+        width: 36px;
+        height: 36px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+    }
+    .tkt_mobuserimg{
+        width: 20px;
+        height: 20px;
+    }
+    .fly_saidansad{
+        display: flex;
+        flex-direction: column;
+    }
+    .fly_place1, .fly_place2{
+        width: 550px;
+        height: 44px;
+        margin-left: -125px;
+        border-radius: 10px;
+    }
+    .fly_place2{
+        margin-top: -8px;
+    }
+    .fly_allinputs{
+        flex-direction: column;
+        margin: 30px 15px;
+    }
+    .fly_qveynebi, .fly_qveynebi1{
+        margin-left: -10px;
+        width: 550px;
+    }
+    .fly_calendarwrapper{
+        margin-top: -320px;
+        margin-left: -10px;
+    }
+    .fly_tarigi{
+        width: 270px;
+        height: 44px;
+        border-radius: 10px;
+    }
+    .saertashoriso_dropdownCal{
+        width: 500px;
+        margin-left: 150px;
+        margin-top: -10px;
+    }
+    .saertashoriso_monthBox{
+        margin-left: -25px;
+        width: 270px;
+    }
+    .saertashoriso_weekdays{
+        width: 270px;
+        margin-left: -15px;
+    }
+    .saertashoriso_daysGrid{
+        margin-left: -25px;
+        width: 200px;
+        height: 180px;
+    }
+    .fly_mgzavri{
+        width: 270px;
+        height: 44px;
+        border-radius: 10px;
+        margin-top: -75px;
+        margin-left: 270px;
+    }
+    .fly_dzebna{
+        width: 550px;
+        height: 44px;
+        margin-left: -10px;
+        
+    }
+    .tkt_mobscrollimgs{
+        display: block;
+        position: relative;
+        width: 550px;
+        height: 638.4px;
+        overflow: hidden;
+        border-radius: 30px;
+        z-index: 1;
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+    .fly_mobscrollimg{
+        position: absolute;
+        width: 550px;
+        height: 638.4px;
+        border-radius: 30px;
+        transition: transform 0.5s ease;
+    }
+
+    .mobnext{
+        position: absolute;
+        top: 270px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: beige;
+        font-size: 15px;
+        font-weight: 500;
+        border: none;
+        z-index: 100;
+        right: 0;
+        cursor: pointer;
+    }
+    .mobprev{
+        cursor: pointer;
+        position: absolute;
+        top: 270px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: beige;
+        font-size: 15px;
+        font-weight: 500;
+        border: none;
+        z-index: 100;
+        left: 0;
+    }
+    .fly_onefrom3{
+        width:556px ;
+        height: 64px;
+        border-radius: 24px;
+        margin-left: -80px;
+        margin-top: 10px;
+    }
+    .fly_allthree{
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .fly_populartext1{
+        margin-left: 20px;
+        margin-top: 15px;
+        font-size: 15px;
+        width: 100%;
+    }
+    .fly_mobeight{
+        margin-top: -140px ;
+        margin-left: -170px;
+        overflow-x: auto;
+        scrollbar-width: none;
+    }
+    .fly_mobeight::-webkit-scrollbar {
+        display: none;
+    }
+    .fly_map{
+        width: 350px !important;
+    }
+   
+
+    .fly_four {
+        display: flex;
+        gap: 10px;
+    }
+
+    .fly_cityimg{
+        width: 361px;
+        height: 181.512px;
+    }
+    .fly_city{
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+    .detailsDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .faqItem{
+        width: 530px;
+        margin-left: 10px;
+        margin-top: -10px;
+        border-radius: 24px;
+    }
+    summary{
+        font-size: 13px;
+        color: rgba(0, 0, 0, 0.647);
+        font-family: TBCX, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        font-weight: 400;
+    }
+    .fly_head{
+        width: 100%;
+        margin-top: -150px;
+        overflow-x: hidden;
+    }
+    .fly_wholelive{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .fly_livelist{
+        width: 100%;
+    }
+    .fly_livehead{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+       margin-top: 40px;
+    }
+    .fly_listone{
+        margin-left: -20px;
+    }
+    .fly_lowerscroll{
+        overflow: hidden;
+        width: 90%;
+        height: 540px;
+    }
+    .fly_pinkbtn{
+        width: 136px;
+        height: 32px;
+        margin-top: 25px;
+        margin-left: 35px;
+    }
+    .fly_textinbtn{
+        font-size: 10px;
+    }
+    .fly_underpink{
+        font-size: 12px;
+    }
+    .fly_mobbanner{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .fly_infohead{
+        margin-left: 10px;
+        font-size: 12px;
+        margin-top: 60px;
+    }
+    .article{
+        margin-left:10px ;
+    }
+    .fly_lastdiv{
+        margin-left: 10px;
+    }
+    .fly_listone{
+        font-size: 8px;
+
+    }
+    .fly_populars{
+    width: 100%;
+    height: 758px;
+    background-color: rgb(25, 25, 83);
+    position: absolute;
+}
+.prostadiv{
+    width: 600px;
+}
+.fly_livecont{
+    margin-top:200px;
+}
+}
